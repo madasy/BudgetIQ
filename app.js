@@ -12,6 +12,7 @@ const typeControl = document.getElementById("typeControl");
 const typeInput = document.getElementById("type");
 const clearAllButton = document.getElementById("clearAll");
 const accountSelect = document.getElementById("account");
+const categoryList = document.getElementById("categoryList");
 const csvFileInput = document.getElementById("csvFile");
 const csvAccountSelect = document.getElementById("csvAccount");
 const importCsvButton = document.getElementById("importCsv");
@@ -23,12 +24,23 @@ const receiptCategoryInput = document.getElementById("receiptCategory");
 const receiptDateInput = document.getElementById("receiptDate");
 const receiptAccountSelect = document.getElementById("receiptAccount");
 const createReceiptButton = document.getElementById("createReceipt");
+const useLocalAiToggle = document.getElementById("useLocalAi");
+const analyzeReceiptButton = document.getElementById("analyzeReceipt");
+const receiptStatus = document.getElementById("receiptStatus");
 const sankeyChart = document.getElementById("sankeyChart");
 const sankeyEmpty = document.getElementById("sankeyEmpty");
+const accountList = document.getElementById("accountList");
+const categoryListPanel = document.getElementById("categoryListPanel");
+const newAccountNameInput = document.getElementById("newAccountName");
+const newCategoryNameInput = document.getElementById("newCategoryName");
+const addAccountButton = document.getElementById("addAccount");
+const addCategoryButton = document.getElementById("addCategory");
 
 const STORAGE_KEY = "budgetiq-transactions";
+const STORAGE_ACCOUNTS = "budgetiq-accounts";
+const STORAGE_CATEGORIES = "budgetiq-categories";
 
-const accounts = [
+const defaultAccounts = [
   { id: "anish-bank-1", label: "Anish · Bank Account 1" },
   { id: "anish-bank-2", label: "Anish · Bank Account 2" },
   { id: "anish-credit", label: "Anish · Credit Card" },
@@ -38,6 +50,60 @@ const accounts = [
   { id: "partner-bank-2", label: "Partner · Bank Account 2" },
 ];
 
+const defaultCategories = [
+  "Salary",
+  "Groceries",
+  "Utilities",
+  "Rent",
+  "Travel",
+  "Childcare",
+  "Investments",
+  "TWINT",
+  "Card Payment",
+  "Receipts",
+  "Income",
+  "Expense",
+];
+
+const getAccounts = () => {
+  const stored = localStorage.getItem(STORAGE_ACCOUNTS);
+  if (!stored) {
+    localStorage.setItem(STORAGE_ACCOUNTS, JSON.stringify(defaultAccounts));
+    return [...defaultAccounts];
+  }
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) && parsed.length ? parsed : [...defaultAccounts];
+  } catch (error) {
+    return [...defaultAccounts];
+  }
+};
+
+const saveAccounts = (nextAccounts) => {
+  localStorage.setItem(STORAGE_ACCOUNTS, JSON.stringify(nextAccounts));
+};
+
+const getCategories = () => {
+  const stored = localStorage.getItem(STORAGE_CATEGORIES);
+  if (!stored) {
+    localStorage.setItem(STORAGE_CATEGORIES, JSON.stringify(defaultCategories));
+    return [...defaultCategories];
+  }
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) && parsed.length ? parsed : [...defaultCategories];
+  } catch (error) {
+    return [...defaultCategories];
+  }
+};
+
+const saveCategories = (nextCategories) => {
+  localStorage.setItem(STORAGE_CATEGORIES, JSON.stringify(nextCategories));
+};
+
+let accounts = getAccounts();
+let categories = getCategories();
+
 const defaultTransactions = [
   {
     id: crypto.randomUUID(),
@@ -46,7 +112,7 @@ const defaultTransactions = [
     category: "Salary",
     date: new Date().toISOString().split("T")[0],
     note: "Monthly payroll",
-    account: "anish-bank-1",
+    account: accounts[0]?.id || "anish-bank-1",
   },
   {
     id: crypto.randomUUID(),
@@ -55,7 +121,7 @@ const defaultTransactions = [
     category: "Groceries",
     date: new Date().toISOString().split("T")[0],
     note: "Weekly staples",
-    account: "anish-bank-1",
+    account: accounts[0]?.id || "anish-bank-1",
   },
   {
     id: crypto.randomUUID(),
@@ -64,7 +130,7 @@ const defaultTransactions = [
     category: "Utilities",
     date: new Date().toISOString().split("T")[0],
     note: "Electricity bill",
-    account: "anish-credit",
+    account: accounts[2]?.id || "anish-credit",
   },
 ];
 
@@ -109,6 +175,9 @@ const saveTransactions = (transactions) => {
 };
 
 const updateOverview = (transactions) => {
+  if (!totalIncome || !totalExpense || !balanceAmount || !balancePill || !pulseFill || !pulseLabel) {
+    return;
+  }
   const income = transactions
     .filter((transaction) => transaction.type === "income")
     .reduce((sum, transaction) => sum + transaction.amount, 0);
@@ -150,6 +219,9 @@ const accountLabel = (accountId) => {
 };
 
 const renderTransactions = (transactions) => {
+  if (!transactionList || !countChip || !transactionTemplate) {
+    return;
+  }
   transactionList.innerHTML = "";
   countChip.textContent = `${transactions.length} transaction${transactions.length === 1 ? "" : "s"}`;
 
@@ -208,6 +280,13 @@ const addTransaction = (formData) => {
     return;
   }
 
+  if (!categories.includes(category)) {
+    categories.push(category);
+    saveCategories(categories);
+    populateCategoryDatalist();
+    renderCategoryList();
+  }
+
   const transactions = getTransactions();
   transactions.push({
     id: crypto.randomUUID(),
@@ -226,12 +305,19 @@ const addTransaction = (formData) => {
 const setTodayDate = () => {
   const dateInput = document.getElementById("date");
   const today = new Date().toISOString().split("T")[0];
-  dateInput.value = today;
-  receiptDateInput.value = today;
+  if (dateInput) {
+    dateInput.value = today;
+  }
+  if (receiptDateInput) {
+    receiptDateInput.value = today;
+  }
 };
 
 const populateAccountSelects = () => {
   [accountSelect, csvAccountSelect, receiptAccountSelect].forEach((select) => {
+    if (!select) {
+      return;
+    }
     select.innerHTML = "";
     accounts.forEach((account) => {
       const option = document.createElement("option");
@@ -239,7 +325,89 @@ const populateAccountSelects = () => {
       option.textContent = account.label;
       select.appendChild(option);
     });
-    select.value = accounts[0].id;
+    if (accounts[0]) {
+      select.value = accounts[0].id;
+    }
+  });
+};
+
+const populateCategoryDatalist = () => {
+  if (!categoryList) {
+    return;
+  }
+  categoryList.innerHTML = "";
+  categories.forEach((category) => {
+    const option = document.createElement("option");
+    option.value = category;
+    categoryList.appendChild(option);
+  });
+  if (receiptCategoryInput) {
+    receiptCategoryInput.setAttribute("list", "categoryList");
+  }
+};
+
+const renderAccountList = () => {
+  if (!accountList) {
+    return;
+  }
+  accountList.innerHTML = "";
+  accounts.forEach((account) => {
+    const row = document.createElement("div");
+    row.className = "manage-item";
+    const label = document.createElement("span");
+    label.textContent = account.label;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "ghost";
+    button.textContent = "Remove";
+    button.addEventListener("click", () => {
+      if (accounts.length === 1) {
+        return;
+      }
+      const confirmed = window.confirm(`Remove ${account.label}? Existing entries will keep the label.`);
+      if (!confirmed) {
+        return;
+      }
+      accounts = accounts.filter((item) => item.id !== account.id);
+      saveAccounts(accounts);
+      populateAccountSelects();
+      renderAccountList();
+      render(getTransactions());
+    });
+    row.append(label, button);
+    accountList.appendChild(row);
+  });
+};
+
+const renderCategoryList = () => {
+  if (!categoryListPanel) {
+    return;
+  }
+  categoryListPanel.innerHTML = "";
+  categories.forEach((category) => {
+    const row = document.createElement("div");
+    row.className = "manage-item";
+    const label = document.createElement("span");
+    label.textContent = category;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "ghost";
+    button.textContent = "Remove";
+    button.addEventListener("click", () => {
+      const confirmed = window.confirm(`Remove ${category}? Existing entries will keep the name.`);
+      if (!confirmed) {
+        return;
+      }
+      categories = categories.filter((item) => item !== category);
+      if (!categories.length) {
+        categories = [...defaultCategories];
+      }
+      saveCategories(categories);
+      populateCategoryDatalist();
+      renderCategoryList();
+    });
+    row.append(label, button);
+    categoryListPanel.appendChild(row);
   });
 };
 
@@ -261,23 +429,6 @@ const setupTypeControl = () => {
     });
   });
 };
-
-transactionForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const formData = new FormData(transactionForm);
-  addTransaction(formData);
-  transactionForm.reset();
-  setTodayDate();
-  typeInput.value = "income";
-  typeControl.querySelectorAll(".segment").forEach((segment) => {
-    segment.classList.toggle("active", segment.dataset.value === "income");
-  });
-});
-
-clearAllButton.addEventListener("click", () => {
-  localStorage.removeItem(STORAGE_KEY);
-  render([]);
-});
 
 const normalizeAmount = (raw) => {
   if (!raw) {
@@ -324,11 +475,15 @@ const parseMigrosCsv = (text, accountId) => {
     const [date, bookingText, amountRaw] = line.split(";");
     const amount = normalizeAmount(amountRaw);
     const type = amount < 0 ? "expense" : "income";
+    const category = guessCategory(bookingText, amount);
+    if (!categories.includes(category)) {
+      categories.push(category);
+    }
     return {
       id: crypto.randomUUID(),
       type,
       amount: Math.abs(amount),
-      category: guessCategory(bookingText, amount),
+      category,
       date: parseSwissDate(date),
       note: bookingText,
       account: accountId,
@@ -337,6 +492,9 @@ const parseMigrosCsv = (text, accountId) => {
 };
 
 const importCsv = async () => {
+  if (!csvFileInput || !csvAccountSelect || !csvStatus) {
+    return;
+  }
   const file = csvFileInput.files[0];
   if (!file) {
     csvStatus.textContent = "Choose a CSV file to import.";
@@ -351,12 +509,18 @@ const importCsv = async () => {
   const transactions = getTransactions();
   const merged = transactions.concat(imported);
   saveTransactions(merged);
+  saveCategories(categories);
+  populateCategoryDatalist();
+  renderCategoryList();
   render(merged);
   csvStatus.textContent = `Imported ${imported.length} transactions.`;
   csvFileInput.value = "";
 };
 
 const setupReceiptScanner = () => {
+  if (!receiptFileInput || !receiptVendorInput || !receiptCategoryInput || !createReceiptButton) {
+    return;
+  }
   receiptFileInput.addEventListener("change", () => {
     const file = receiptFileInput.files[0];
     if (!file) {
@@ -365,6 +529,9 @@ const setupReceiptScanner = () => {
     const baseName = file.name.replace(/\.[^/.]+$/, "");
     receiptVendorInput.value = baseName.replace(/[_-]+/g, " ").trim();
     receiptCategoryInput.value = "Receipts";
+    if (receiptStatus) {
+      receiptStatus.textContent = "Drafted from filename. Run local analysis for more detail.";
+    }
   });
 
   createReceiptButton.addEventListener("click", () => {
@@ -388,10 +555,45 @@ const setupReceiptScanner = () => {
     receiptAmountInput.value = "";
     receiptCategoryInput.value = "";
     receiptFileInput.value = "";
+    if (receiptStatus) {
+      receiptStatus.textContent = "Receipt added as expense.";
+    }
   });
 };
 
+const analyzeReceiptLocal = async () => {
+  if (!useLocalAiToggle || !receiptStatus) {
+    return;
+  }
+  if (!useLocalAiToggle.checked) {
+    receiptStatus.textContent = "Enable the local AI toggle to run analysis.";
+    return;
+  }
+  if (!receiptFileInput || !receiptVendorInput || !receiptCategoryInput) {
+    return;
+  }
+  const file = receiptFileInput.files[0];
+  if (!file) {
+    receiptStatus.textContent = "Add a receipt image first.";
+    return;
+  }
+
+  receiptStatus.textContent = "Analyzing locally...";
+
+  const baseName = file.name.replace(/\.[^/.]+$/, "");
+  const vendor = baseName.replace(/[_-]+/g, " ").trim();
+  receiptVendorInput.value = vendor || receiptVendorInput.value;
+  if (!receiptCategoryInput.value) {
+    receiptCategoryInput.value = guessCategory(vendor, -1);
+  }
+  receiptStatus.textContent =
+    "Local analysis complete (heuristic). Connect a local model to replace this step.";
+};
+
 const renderSankey = (transactions) => {
+  if (!sankeyChart || !sankeyEmpty) {
+    return;
+  }
   const expenses = transactions.filter((transaction) => transaction.type === "expense");
   if (!expenses.length) {
     sankeyChart.innerHTML = "";
@@ -511,20 +713,86 @@ const renderSankey = (transactions) => {
   });
 };
 
-importCsvButton.addEventListener("click", () => {
-  importCsv();
-});
+if (importCsvButton && csvFileInput) {
+  importCsvButton.addEventListener("click", () => {
+    importCsv();
+  });
 
-csvFileInput.addEventListener("change", () => {
-  if (!csvFileInput.files[0]) {
-    csvStatus.textContent = "Waiting for a CSV file.";
-    return;
-  }
-  csvStatus.textContent = `Ready to import ${csvFileInput.files[0].name}.`;
-});
+  csvFileInput.addEventListener("change", () => {
+    if (!csvFileInput.files[0]) {
+      if (csvStatus) {
+        csvStatus.textContent = "Waiting for a CSV file.";
+      }
+      return;
+    }
+    if (csvStatus) {
+      csvStatus.textContent = `Ready to import ${csvFileInput.files[0].name}.`;
+    }
+  });
+}
 
-setupTypeControl();
+if (transactionForm && typeControl && typeInput) {
+  setupTypeControl();
+  transactionForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const formData = new FormData(transactionForm);
+    addTransaction(formData);
+    transactionForm.reset();
+    setTodayDate();
+    typeInput.value = "income";
+    typeControl.querySelectorAll(".segment").forEach((segment) => {
+      segment.classList.toggle("active", segment.dataset.value === "income");
+    });
+  });
+}
+
+if (clearAllButton) {
+  clearAllButton.addEventListener("click", () => {
+    localStorage.removeItem(STORAGE_KEY);
+    render([]);
+  });
+}
+
 populateAccountSelects();
+populateCategoryDatalist();
 setTodayDate();
 setupReceiptScanner();
+renderAccountList();
+renderCategoryList();
 render(getTransactions());
+
+if (addAccountButton && newAccountNameInput) {
+  addAccountButton.addEventListener("click", () => {
+    const label = newAccountNameInput.value.trim();
+    if (!label) {
+      return;
+    }
+    accounts = [...accounts, { id: crypto.randomUUID(), label }];
+    saveAccounts(accounts);
+    newAccountNameInput.value = "";
+    populateAccountSelects();
+    renderAccountList();
+  });
+}
+
+if (addCategoryButton && newCategoryNameInput) {
+  addCategoryButton.addEventListener("click", () => {
+    const category = newCategoryNameInput.value.trim();
+    if (!category) {
+      return;
+    }
+    if (!categories.includes(category)) {
+      categories = [...categories, category];
+      saveCategories(categories);
+      populateCategoryDatalist();
+      renderCategoryList();
+    }
+    newCategoryNameInput.value = "";
+  });
+}
+
+if (analyzeReceiptButton) {
+  analyzeReceiptButton.addEventListener("click", () => {
+    analyzeReceiptLocal();
+  });
+}

@@ -20,9 +20,17 @@
     </div>
 
     <main class="shell">
+      <nav class="top-nav">
+        <div class="brand">BudgetIQ</div>
+        <div class="nav-links">
+          <a class="active" href="index.html">Dashboard</a>
+          <a href="import.html">Import & Receipts</a>
+          <a href="settings.html">Settings</a>
+        </div>
+      </nav>
       <header class="hero">
         <div>
-          <p class="eyebrow">BudgetIQ</p>
+          <p class="eyebrow">Dashboard</p>
           <h1>Track your cash flow with clarity and calm.</h1>
           <p class="subtitle">
             Log income and expenses, watch balances update instantly, and stay
@@ -96,7 +104,9 @@
                 type="text"
                 placeholder="Salary, Groceries, Rent"
                 required
+                list="categoryList"
               />
+              <datalist id="categoryList"></datalist>
             </div>
             <div class="field-group">
               <label for="date">Date</label>
@@ -134,42 +144,7 @@
           <div class="ledger-list" id="transactionList"></div>
         </section>
       </section>
-
       <section class="tools">
-        <section class="card tool">
-          <div class="tool-header">
-            <h2>Import bank CSV</h2>
-            <p>Load statements like MigrosBank exports to speed up entry.</p>
-          </div>
-          <div class="tool-body">
-            <input type="file" id="csvFile" accept=".csv" />
-            <select id="csvAccount" aria-label="Account for imported transactions"></select>
-            <button class="primary" type="button" id="importCsv">Import CSV</button>
-            <p class="helper" id="csvStatus">Waiting for a CSV file.</p>
-          </div>
-        </section>
-
-        <section class="card tool">
-          <div class="tool-header">
-            <h2>Receipt scan (beta)</h2>
-            <p>Upload a photo to create a draft expense. Verify the details.</p>
-          </div>
-          <div class="tool-body">
-            <input type="file" id="receiptFile" accept="image/*" />
-            <div class="receipt-grid">
-              <input id="receiptVendor" type="text" placeholder="Vendor" />
-              <input id="receiptAmount" type="number" step="0.01" min="0" placeholder="Amount" />
-              <input id="receiptCategory" type="text" placeholder="Category" />
-              <input id="receiptDate" type="date" />
-              <select id="receiptAccount" aria-label="Account for receipt expense"></select>
-            </div>
-            <button class="primary" type="button" id="createReceipt">Create expense</button>
-            <p class="helper">
-              Tip: on mobile, take a photo and share it here. OCR automation can be plugged in later.
-            </p>
-          </div>
-        </section>
-
         <section class="card tool wide">
           <div class="tool-header">
             <h2>Money outflow sankey</h2>
