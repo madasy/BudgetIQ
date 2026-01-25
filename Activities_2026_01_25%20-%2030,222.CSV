@@ -1,0 +1,1313 @@
+﻿DATE;ACTIVITY TYPE;ACTIVITY NAME;DEBIT;DEBIT CURRENCY;CREDIT;CREDIT CURRENCY;CARD NUMBER;LOCALITY;RECIPIENT;SENDER;FEES/COMMISSION;BUY/SELL;QUANTITY;ASSET;PRICE PER UNIT
+26/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/07/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4173.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+26/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""1.1551x Blockchain""";-100.15;CHF;;;;;;;0.15;BUY;1.1551;BCHE;86.57
+26/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.3106x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-100.16;CHF;;;;;;;0.15;BUY;0.3106;EQCH;322.0
+26/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.3575x Roche""";-101.09;CHF;;;;;;;1.1;BUY;0.3575;ROG;279.7
+26/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/07/2024;CARD_TRANSACTION_OUT;"""Migros MM Lenzburg""";-33.25;CHF;;;**** 3365;"""Lenzburg, CH""";"""Migros MM Lenzburg""";;0.0;;;;
+26/07/2024;CARD_TRANSACTION_OUT;"""Denner Lenzburg""";-10.55;CHF;;;**** 3365;"""Lenzburg, CH""";"""Denner Lenzburg""";;0.0;;;;
+26/07/2024;CARD_TRANSACTION_OUT;"""Landi Gränichen""";-22.40;CHF;;;**** 3365;"""Graenichen, CH""";"""Landi Gränichen""";;0.0;;;;
+26/07/2024;CARD_TRANSACTION_OUT;"""Parkhaus 33""";-4.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus 33""";;0.0;;;;
+27/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/07/2024;CARD_TRANSACTION_OUT;"""Landi Laden""";-10.45;CHF;;;**** 3365;"""HALLWIL, CH""";"""Landi Laden""";;0.0;;;;
+27/07/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1000.00;CHF;;;"""Steuern""";;;;;;
+27/07/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/07/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «iPhone 16 Pro Max»""";;;80.00;CHF;;;"""iPhone 16 Pro Max""";;;;;;
+27/07/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/07/2024;CARD_TRANSACTION_OUT;"""Landi Gränichen""";-140.20;CHF;;;**** 3365;"""Graenichen, CH""";"""Landi Gränichen""";;0.0;;;;
+28/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/07/2024;CARD_TRANSACTION_OUT;"""Coop TS Dietikon""";-32.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop TS Dietikon""";;0.0;;;;
+29/07/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+29/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""13.5318x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;13.5318;MOONTQ;22.17
+29/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""2.6238x USA Tech (SPDR S&P US Technology)""";-301.96;USD;;;;;;;1.95;BUY;2.6238;SXLK;114.34
+29/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""5.1361x World (Vanguard FTSE All-World Dis)""";-600.90;CHF;;;;;;;0.9;BUY;5.1361;VWRL;116.82
+29/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/07/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-269.55;CHF;301.96;USD;;;;;2.54;;;;0.892656
+29/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.4587x Berkshire Hathaway""";-201.29;USD;;;;;;;1.3;BUY;0.4587;BRK/B;435.99
+29/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/07/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.8716x Tesla """;-201.30;USD;;;;;;;1.3;BUY;0.8716;TSLA;229.46
+29/07/2024;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Arm declined""";-101.15;ARM;;;;;;;1.15;BUY;100;ARM;147.32
+29/07/2024;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Micron Technology declined""";-101.15;MU;;;;;;;1.15;BUY;100;MU;110.56
+29/07/2024;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of AMD declined""";-101.15;AMD;;;;;;;1.15;BUY;100;AMD;142.96
+29/07/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/07/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-360.01;CHF;402.59;USD;;;;;3.39;;;;0.894232
+30/07/2024;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+30/07/2024;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.06;USD;;;;;0.02;;;;
+31/07/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-4.15;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+01/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/08/2024;CARD_TRANSACTION_OUT;"""Lidl""";-56.30;CHF;;;**** 3365;"""Schlieren, CH""";"""Lidl""";;0.0;;;;
+02/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-200.00;CHF;;;;;"""Notfall""";;;;;;
+02/08/2024;CARD_TRANSACTION_OUT;"""BELMUNDO AG""";-13.80;CHF;;;**** 3365;"""ZÜRICH, CH""";"""BELMUNDO AG""";;0.0;;;;
+02/08/2024;CARD_TRANSACTION_OUT;"""Coiffeur Saleh""";-63.00;CHF;;;**** 3365;"""Zürich, CH""";"""Coiffeur Saleh""";;0.0;;;;
+02/08/2024;CARD_TRANSACTION_OUT;"""Parsaco Food Courts Gm""";-38.20;CHF;;;**** 3365;"""Zürich, CH""";"""Parsaco Food Courts Gm""";;0.0;;;;
+02/08/2024;CARD_TRANSACTION_OUT;"""Migros""";-2.10;CHF;;;**** 3365;"""Zürich, CH""";"""Migros""";;0.0;;;;
+02/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-200.00;CHF;;;;;"""Notfall""";;;;;;
+02/08/2024;CARD_TRANSACTION_OUT;"""PostFinance""";-200.00;CHF;;;**** 3365;"""DIETIKON, CH""";"""PostFinance""";;0.0;;;;
+03/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+03/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-5.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+03/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-2.55;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+04/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-2.05;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+04/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/08/2024;CARD_TRANSACTION_OUT;"""Press & Books""";-12.15;CHF;;;**** 3365;"""Zürich Flugha, CH""";"""Press & Books""";;0.0;;;;
+04/08/2024;CARD_TRANSACTION_OUT;"""McDonald's""";-18.00;CHF;;;**** 3365;"""Zuerich, CH""";"""McDonald's""";;0.0;;;;
+04/08/2024;CARD_TRANSACTION_OUT;"""Parkhaus1""";-5.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus1""";;0.0;;;;
+05/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2024;CARD_TRANSACTION_OUT;"""Lidl""";-35.55;CHF;;;**** 3365;"""Schlieren, CH""";"""Lidl""";;0.0;;;;
+06/08/2024;CARD_TRANSACTION_OUT;"""Coop""";-2.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+06/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-1000.00;CHF;;;;;"""Notfall""";;;;;;
+08/08/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-1000.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+09/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+09/08/2024;CARD_TRANSACTION_OUT;"""Aldi""";-1.75;CHF;;;**** 3365;"""Dietikon, CH""";"""Aldi""";;0.0;;;;
+09/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-150.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+09/08/2024;CARD_TRANSACTION_OUT;"""PAYPAL *lahcenmait2""";-104.17;CHF;;;**** 3365;"""4029357733, CH""";"""PAYPAL *lahcenmait2""";;0.0;;;;
+10/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-2.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+12/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/08/2024;CARD_TRANSACTION_OUT;"""Coop""";-2.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+12/08/2024;CARD_TRANSACTION_OUT;"""Coop""";-14.30;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+13/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-5.15;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+17/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/08/2024;INVEST_ORDER_EXECUTED;"""20x USA Tech (SPDR S&P US Technology)""";;;2297.37;USD;;;;;15.03;SELL;20.0;SXLK;115.62
+19/08/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+19/08/2024;INVEST_ORDER_EXECUTED;"""4x Berkshire Hathaway""";;;1780.51;USD;;;;;11.65;SELL;4.0;BRK/B;448.04
+19/08/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+19/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-100.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+19/08/2024;CARD_TRANSACTION_OUT;"""Lidl""";-2.68;CHF;;;**** 3365;"""Weinfelden, CH""";"""Lidl""";;0.0;;;;
+19/08/2024;CARD_TRANSACTION_OUT;"""Lidl""";-22.35;CHF;;;**** 3365;"""Schlieren, CH""";"""Lidl""";;0.0;;;;
+20/08/2024;BANK_ORDER_EXECUTED;"""Exchange United States dollars""";;;3481.38;CHF;;;;;33.37;;4077.94;USD;0.853711
+20/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Abschlussreise»""";-100.00;CHF;;;;;"""Abschlussreise""";;;;;;
+20/08/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-400.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+20/08/2024;CARD_TRANSACTION_OUT;"""IHG""";-253.00;USD;;;**** 3365;"""POINTS.COM, US""";"""IHG""";;0.0;;;;
+20/08/2024;GOAL_DEPOSIT;"""Deposit to «Jahrliche Kosten»""";;;250.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+20/08/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-3000.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+20/08/2024;CARD_TRANSACTION_OUT;"""Coop""";-21.70;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+20/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/08/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-219.42;CHF;253.00;USD;;;;;2.06;;;;0.867261
+21/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/08/2024;CARD_TRANSACTION_OUT;"""K Kiosk""";-17.95;CHF;;;**** 3365;"""Dietikon, CH""";"""K Kiosk""";;0.0;;;;
+21/08/2024;CARD_TRANSACTION_OUT;"""Furkan Bäckerei, Inhab""";-22.00;CHF;;;**** 3365;"""Dietikon, CH""";"""Furkan Bäckerei, Inhab""";;0.0;;;;
+22/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-0.75;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+22/08/2024;CARD_TRANSACTION_OUT;"""Coop""";-5.50;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+23/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+25/08/2024;CARD_TRANSACTION_OUT;"""ESTA""";-21.00;USD;;;**** 3365;"""INDIANAPOLIS, US""";"""ESTA""";;0.0;;;;
+25/08/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.65;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+26/08/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4173.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+26/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/08/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-1700.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+26/08/2024;CARD_TRANSACTION_OUT;"""AIR Restaurant""";-18.80;CHF;;;**** 3365;"""Zürich, CH""";"""AIR Restaurant""";;0.0;;;;
+26/08/2024;CARD_TRANSACTION_OUT;"""Alpenblick Bar""";-8.90;CHF;;;**** 3365;"""Zürich, CH""";"""Alpenblick Bar""";;0.0;;;;
+26/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/08/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-17.95;CHF;21.00;USD;;;;;0.17;;;;0.854629
+26/08/2024;CARD_TRANSACTION_OUT;"""Alpenblick Bar""";-6.90;CHF;;;**** 3365;"""Zürich, CH""";"""Alpenblick Bar""";;0.0;;;;
+27/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/08/2024;INVEST_RECURRING_ORDER_EXECUTED;"""5.2038x World (Vanguard FTSE All-World Dis)""";-600.90;CHF;;;;;;;0.9;BUY;5.2038;VWRL;115.3
+27/08/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «iPhone 16 Pro Max»""";;;80.00;CHF;;;"""iPhone 16 Pro Max""";;;;;;
+27/08/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/08/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1000.00;CHF;;;"""Steuern""";;;;;;
+27/08/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+28/08/2024;CARD_TRANSACTION_OUT;"""GoFundMe""";-63.00;EUR;;;**** 3365;"""GOFUNDME.COM, IE""";"""GoFundMe""";;0.0;;;;
+29/08/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+29/08/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-59.51;CHF;63.00;EUR;;;;;0.56;;;;0.94467
+30/08/2024;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+01/09/2024;CARD_TRANSACTION_OUT;"""Uber""";-8.43;USD;;;**** 3365;"""8005928996, US""";"""Uber""";;0.0;;;;
+01/09/2024;CARD_TRANSACTION_OUT;"""Uber""";-13.81;USD;;;**** 3365;"""8005928996, US""";"""Uber""";;0.0;;;;
+01/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-7.23;CHF;8.43;USD;;;;;0.07;;;;0.857787
+02/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-11.84;CHF;13.81;USD;;;;;0.11;;;;0.857547
+02/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-300.00;CHF;;;;;"""Notfall""";;;;;;
+04/09/2024;CARD_TRANSACTION_OUT;"""Moxy Hotels""";-227.00;GBP;;;**** 3365;"""HOUNSLOW, GB""";"""Moxy Hotels""";;0.0;;;;
+04/09/2024;CARD_TRANSACTION_OUT;"""Wise""";-102.54;CHF;;;**** 3365;"""London, GB""";"""Wise""";;0.0;;;;
+04/09/2024;CARD_TRANSACTION_OUT;"""Rhode Skin""";-96.00;GBP;;;**** 3365;"""BEVERLY HILLS, US""";"""Rhode Skin""";;0.0;;;;
+04/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-450.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+04/09/2024;GOAL_DEPOSIT;"""Deposit to «Jahrliche Kosten»""";;;450.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+05/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-107.93;CHF;96.00;GBP;;;;;1.02;;;;1.124221
+05/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-255.23;CHF;227.00;GBP;;;;;2.40;;;;1.124342
+07/09/2024;CARD_TRANSACTION_OUT;"""Microsoft""";-3.89;CHF;;;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft""";;0.0;;;;
+07/09/2024;CARD_TRANSACTION_OUT;"""Microsoft""";-5.84;CHF;;;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft""";;0.0;;;;
+07/09/2024;CARD_TRANSACTION_OUT;"""K Kiosk""";-3.95;CHF;;;**** 3365;"""Zürich Flugha, CH""";"""K Kiosk""";;0.0;;;;
+07/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-100.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+07/09/2024;INVEST_ORDER_EXECUTED;"""25x Polkadot""";-102.31;USD;;;;;;;1.01;BUY;25;DOT;4.052
+07/09/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+07/09/2024;CARD_TRANSACTION_OUT;"""P3 Parkhaus Ein- & Aus""";-4.00;CHF;;;**** 3365;"""Zürich, CH""";"""P3 Parkhaus Ein- & Aus""";;0.0;;;;
+08/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-87.23;CHF;102.31;USD;;;;;0.82;;;;0.852614
+12/09/2024;INVEST_ORDER_EXECUTED;"""17x World (Vanguard FTSE All-World Dis)""";;;2258.46;USD;;;;;14.78;SELL;17.0;VWRD;133.72
+12/09/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+12/09/2024;BANK_ORDER_EXECUTED;"""Exchange United States dollars""";;;1911.06;CHF;;;;;18.31;;2258.46;USD;0.846177
+12/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-1900.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+13/09/2024;CARD_TRANSACTION_IN;"""Microsoft 365""";;;3.89;CHF;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft 365""";;0.0;;;;
+13/09/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+13/09/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-0.45;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+13/09/2024;CARD_TRANSACTION_OUT;"""DeepL""";-21.37;EUR;;;**** 3365;"""KOLN, DE""";"""DeepL""";;0.0;;;;
+14/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/09/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.75;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+15/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-20.26;CHF;21.37;EUR;;;;;0.19;;;;0.947892
+16/09/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-0.85;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+17/09/2024;INVEST_ORDER_EXECUTED;"""9x USA Tech (SPDR S&P US Technology)""";;;1030.41;USD;;;;;6.75;SELL;9.0;SXLK;115.24
+17/09/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+18/09/2024;BANK_ORDER_EXECUTED;"""Exchange United States dollars""";;;862.62;CHF;;;;;8.28;;1030.41;USD;0.837166
+18/09/2024;CARD_TRANSACTION_OUT;"""Studler AG Baeckerei C""";-10.70;CHF;;;**** 3365;"""Seengen, CH""";"""Studler AG Baeckerei C""";;0.0;;;;
+18/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer""";-800.00;CHF;;;;;;;0;;;;
+18/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-1900.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+19/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Hochschule Luzern""";-1045.00;CHF;;;;;"""Hochschule Luzern""";;0;;;;
+19/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Clever Sports AG""";-899.00;CHF;;;;;"""Clever Sports AG""";;0;;;;
+19/09/2024;CARD_TRANSACTION_OUT;"""Swiss Post""";-13.50;CHF;;;**** 3365;"""Dietikon 1, CH""";"""Swiss Post""";;0.0;;;;
+20/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-50.00;CHF;;;;;"""Notfall""";;;;;;
+21/09/2024;CARD_TRANSACTION_OUT;"""Uber Eats""";-29.11;GBP;;;**** 3365;"""HELP.UBER.COM, GB""";"""Uber Eats""";;0.0;;;;
+22/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-50.00;CHF;;;;;"""Notfall""";;;;;;
+22/09/2024;CARD_TRANSACTION_OUT;"""Uber Eats""";-38.16;GBP;;;**** 3365;"""HELP.UBER.COM, GB""";"""Uber Eats""";;0.0;;;;
+23/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/09/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-76.78;CHF;67.27;GBP;;;;;0.72;;;;1.141382
+25/09/2024;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;9.93;USD;;;;;0;;;;
+26/09/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4173.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+26/09/2024;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;46.67;USD;;;;;0;;;;
+27/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to labor team w ag""";-76.50;CHF;;;;;"""labor team w ag""";;0;;;;
+27/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-1100.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+27/09/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Kanton Zuerich""";-300.00;CHF;;;;;"""Kanton Zuerich""";;0;;;;
+27/09/2024;INVEST_RECURRING_ORDER_EXECUTED;"""5.0899x World (Vanguard FTSE All-World Dis)""";-600.90;CHF;;;;;;;0.9;BUY;5.0899;VWRL;117.88
+27/09/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/09/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/09/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1000.00;CHF;;;"""Steuern""";;;;;;
+27/09/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/09/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «iPhone 16 Pro Max»""";;;80.00;CHF;;;"""iPhone 16 Pro Max""";;;;;;
+27/09/2024;CARD_TRANSACTION_OUT;"""Coop""";-7.70;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+27/09/2024;CARD_TRANSACTION_OUT;"""SumUp **Kebab Time""";-18.00;CHF;;;**** 3365;"""Dietikon, CH""";"""SumUp **Kebab Time""";;0.0;;;;
+28/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/09/2024;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+29/09/2024;CARD_TRANSACTION_OUT;"""Coop""";-8.70;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+29/09/2024;CARD_TRANSACTION_OUT;"""Uber""";-12.57;CHF;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber""";;0.0;;;;
+30/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+30/09/2024;GOAL_WITHDRAWAL;"""Withdrawal from «iPhone 16 Pro Max»""";-180.00;CHF;;;;;"""iPhone 16 Pro Max""";;;;;;
+30/09/2024;CARD_TRANSACTION_OUT;"""Uber""";-26.32;CHF;;;**** 3365;"""AMSTERDAM, NL""";"""Uber""";;0.0;;;;
+30/09/2024;CARD_TRANSACTION_OUT;"""K Kiosk""";-9.20;CHF;;;**** 3365;"""Bremgarten, CH""";"""K Kiosk""";;0.0;;;;
+30/09/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+30/09/2024;CARD_TRANSACTION_OUT;"""Coop""";-25.60;CHF;;;**** 3365;"""Mägenwil, CH""";"""Coop""";;0.0;;;;
+01/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/10/2024;CARD_TRANSACTION_OUT;"""Autobahnraststätte Gunzgen Nord""";-25.30;CHF;;;**** 3365;"""Gunzgen, CH""";"""Autobahnraststätte Gunzgen Nord""";;0.0;;;;
+02/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/10/2024;GOAL_WITHDRAWAL;"""Withdrawal from «iPhone 16 Pro Max»""";-800.00;CHF;;;;;"""iPhone 16 Pro Max""";;;;;;
+02/10/2024;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;800.00;CHF;;;"""Notfall""";;;;;;
+03/10/2024;CARD_TRANSACTION_OUT;"""Coop""";-20.70;CHF;;;**** 3365;"""Ins, CH""";"""Coop""";;0.0;;;;
+04/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/10/2024;CARD_TRANSACTION_OUT;"""K Kiosk""";-49.00;CHF;;;**** 3365;"""Zürich, CH""";"""K Kiosk""";;0.0;;;;
+04/10/2024;CARD_TRANSACTION_OUT;"""IKEA""";-3.95;CHF;;;**** 3365;"""Spreitenbach, CH""";"""IKEA""";;0.0;;;;
+05/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/10/2024;CARD_TRANSACTION_OUT;"""Migros""";-11.15;CHF;;;**** 3365;"""Schlieren, CH""";"""Migros""";;0.0;;;;
+05/10/2024;CARD_TRANSACTION_OUT;"""Uber""";-26.10;CHF;;;**** 3365;"""AMSTERDAM, NL""";"""Uber""";;0.0;;;;
+06/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/10/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange United States dollars""";-21.10;USD;17.92;CHF;;;;;0.20;;;;1.17745
+07/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/10/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange United States dollars""";-30.74;USD;26.10;CHF;;;;;0.29;;;;1.177719
+17/10/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-300.00;CHF;;;;;"""Notfall""";;;;;;
+18/10/2024;CARD_TRANSACTION_OUT;"""Microsoft""";-17.50;CHF;;;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft""";;0.0;;;;
+18/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+18/10/2024;CARD_TRANSACTION_OUT;"""Coop""";-1.70;CHF;;;**** 3365;"""Unterkulm, CH""";"""Coop""";;0.0;;;;
+19/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/10/2024;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.06;USD;;;;;0.02;;;;
+26/10/2024;CARD_TRANSACTION_OUT;"""Uber""";-3.01;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+26/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/10/2024;CARD_TRANSACTION_OUT;"""Uber""";-5.33;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+27/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/10/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4173.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+28/10/2024;CARD_TRANSACTION_OUT;"""PAY*BIGTREE ENTERTAINM""";-8.37;CHF;;;**** 3365;"""www.bookmysho, IN""";"""PAY*BIGTREE ENTERTAINM""";;0.0;;;;
+28/10/2024;INVEST_RECURRING_ORDER_EXECUTED;"""4.9817x World (Vanguard FTSE All-World Dis)""";-600.90;CHF;;;;;;;0.9;BUY;4.9817;VWRL;120.44
+28/10/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/10/2024;GOAL_DEPOSIT;"""Deposit to «Steuern»""";;;1000.00;CHF;;;"""Steuern""";;;;;;
+28/10/2024;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+28/10/2024;GOAL_DEPOSIT;"""Deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+28/10/2024;INVEST_ORDER_EXECUTED;"""0.6536x Berkshire Hathaway""";-301.95;USD;;;;;;;1.95;BUY;0.6536;BRK/B;459.0
+28/10/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/10/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-259.43;CHF;297.13;USD;;;;;2.44;;;;0.873106
+29/10/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;8000.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+29/10/2024;GOAL_DEPOSIT;"""Deposit to «Steuern»""";;;8000.00;CHF;;;"""Steuern""";;;;;;
+29/10/2024;CARD_TRANSACTION_IN;"""PAY*BIGTREE ENTERTAINM""";;;8.39;CHF;**** 3365;"""www.bookmysho, IN""";"""PAY*BIGTREE ENTERTAINM""";;0.0;;;;
+29/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+29/10/2024;INVEST_ORDER_EXECUTED;"""15.44x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;15.44;MOONTQ;19.43
+29/10/2024;INVEST_ORDER_EXECUTED;"""3.8417x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;3.8417;BAYN;26.03
+29/10/2024;INVEST_ORDER_EXECUTED;"""0.357x Roche""";-101.10;CHF;;;;;;;1.1;BUY;0.357;ROG;280.1
+29/10/2024;INVEST_ORDER_EXECUTED;"""2.5176x USA Tech (SPDR S&P US Technology)""";-301.95;USD;;;;;;;1.95;BUY;2.5176;SXLK;119.16
+29/10/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/10/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/10/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/10/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.71;CHF;101.15;EUR;;;;;0.90;;;;0.94626
+29/10/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-264.17;CHF;301.95;USD;;;;;2.48;;;;0.874894
+29/10/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/10/2024;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+30/10/2024;CARD_TRANSACTION_OUT;"""Uber""";-12.39;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+30/10/2024;CARD_TRANSACTION_OUT;"""Uber""";-5.92;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+31/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+31/10/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/11/2024;CARD_TRANSACTION_OUT;"""Just Eat""";-29.93;CHF;;;**** 3365;"""Zurich, CH""";"""Just Eat""";;0.0;;;;
+03/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/11/2024;CARD_TRANSACTION_OUT;"""Beck Binz Zurich""";-7.40;CHF;;;**** 3365;"""Zürich, CH""";"""Beck Binz Zurich""";;0.0;;;;
+04/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-26.55;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+05/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/11/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-300.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+06/11/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to KeyFinder AG""";-30.00;CHF;;;;;"""KeyFinder AG""";;0;;;;
+06/11/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to SOS Oxygene SA""";-343.70;CHF;;;;;"""SOS Oxygene SA""";;0;;;;
+06/11/2024;CARD_TRANSACTION_OUT;"""Studler AG Baeckerei C""";-10.00;CHF;;;**** 3365;"""Seengen, CH""";"""Studler AG Baeckerei C""";;0.0;;;;
+06/11/2024;CARD_TRANSACTION_OUT;"""K Kiosk""";-8.20;CHF;;;**** 3365;"""Dietikon, CH""";"""K Kiosk""";;0.0;;;;
+06/11/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Orelhas Bexiga Miguel Ângelo""";-42.00;CHF;;;;;"""Orelhas Bexiga Miguel Ângelo""";;0;;;;
+07/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-19.50;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+07/11/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Steuern»""";-1000.00;CHF;;;;;"""Steuern""";;;;;;
+08/11/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-1000.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+08/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-14.80;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+08/11/2024;CARD_TRANSACTION_OUT;"""Suwannaphum""";-20.50;CHF;;;**** 3365;"""Schlieren, CH""";"""Suwannaphum""";;0.0;;;;
+09/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/11/2024;CARD_TRANSACTION_OUT;"""DROPA Drogerie Müli-Mä""";-21.90;CHF;;;**** 3365;"""Lenzburg, CH""";"""DROPA Drogerie Müli-Mä""";;0.0;;;;
+09/11/2024;CARD_TRANSACTION_OUT;"""Migros""";-30.85;CHF;;;**** 3365;"""Lenzburg, CH""";"""Migros""";;0.0;;;;
+10/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/11/2024;CARD_TRANSACTION_OUT;"""Edelweiss Café""";-10.10;CHF;;;**** 3365;"""Zürich, CH""";"""Edelweiss Café""";;0.0;;;;
+10/11/2024;CARD_TRANSACTION_OUT;"""Parking P3""";-5.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parking P3""";;0.0;;;;
+11/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-12.70;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+11/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-12.90;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+12/11/2024;CARD_TRANSACTION_OUT;"""Microsoft""";-11.67;CHF;;;**** 3365;"""Dublin, IE""";"""Microsoft""";;0.0;;;;
+12/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/11/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-3.75;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+12/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-10.40;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+13/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/11/2024;CARD_TRANSACTION_OUT;"""Studler AG Baeckerei C""";-10.00;CHF;;;**** 3365;"""Seengen, CH""";"""Studler AG Baeckerei C""";;0.0;;;;
+14/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-11.80;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+15/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+15/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-23.60;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+16/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-2.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+17/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-12.10;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+17/11/2024;REWARD_RECEIVED;"""Referral bonus""";;;;;;;;;;;500;SWQ;
+18/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+18/11/2024;CARD_TRANSACTION_OUT;"""Shell""";-7.05;CHF;;;**** 3365;"""Rotkreuz, CH""";"""Shell""";;0.0;;;;
+18/11/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-0.35;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+19/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-8.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+20/11/2024;CARD_TRANSACTION_OUT;"""Furkan Bäckerei, Inhab""";-29.00;CHF;;;**** 3365;"""Dietikon, CH""";"""Furkan Bäckerei, Inhab""";;0.0;;;;
+21/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-8.95;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+22/11/2024;CARD_TRANSACTION_OUT;"""Uber""";-39.02;CHF;;;**** 3365;"""AMSTERDAM, NL""";"""Uber""";;0.0;;;;
+22/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/11/2024;CARD_TRANSACTION_OUT;"""Hallmark Connections""";-6.80;GBP;;;**** 3365;"""Hounslow, GB""";"""Hallmark Connections""";;0.0;;;;
+22/11/2024;CARD_TRANSACTION_OUT;"""Transport for London""";-1.75;GBP;;;**** 3365;"""TFL.GOV.UK/CP, GB""";"""Transport for London""";;0.0;;;;
+22/11/2024;CARD_TRANSACTION_OUT;"""Uber""";-31.98;GBP;;;**** 3365;"""LONDON, GB""";"""Uber""";;0.0;;;;
+23/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/11/2024;CARD_TRANSACTION_OUT;"""Uber Eats""";-26.24;GBP;;;**** 3365;"""LONDON, GB""";"""Uber Eats""";;0.0;;;;
+23/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/11/2024;CARD_TRANSACTION_OUT;"""Rapha""";-6.30;GBP;;;**** 3365;"""London, GB""";"""Rapha""";;0.0;;;;
+24/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+24/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+24/11/2024;CARD_TRANSACTION_OUT;"""Tesco""";-2.20;GBP;;;**** 3365;"""HOUNSLOW, GB""";"""Tesco""";;0.0;;;;
+24/11/2024;CARD_TRANSACTION_OUT;"""Uber Eats""";-55.47;GBP;;;**** 3365;"""LONDON, GB""";"""Uber Eats""";;0.0;;;;
+24/11/2024;CARD_TRANSACTION_OUT;"""Uber Eats""";-66.93;GBP;;;**** 3365;"""LONDON, GB""";"""Uber Eats""";;0.0;;;;
+25/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+25/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-145.55;CHF;128.54;GBP;;;;;1.37;;;;1.132345
+25/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+25/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.49;CHF;2.20;GBP;;;;;0.02;;;;1.1323
+25/11/2024;CARD_TRANSACTION_OUT;"""Wundermart""";-4.99;GBP;;;**** 3365;"""London, GB""";"""Wundermart""";;0.0;;;;
+25/11/2024;CARD_TRANSACTION_OUT;"""Uber""";-19.97;GBP;;;**** 3365;"""LONDON, GB""";"""Uber""";;0.0;;;;
+25/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+25/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-5.64;CHF;4.99;GBP;;;;;0.05;;;;1.129326
+26/11/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4173.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+26/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-97.65;CHF;86.90;GBP;;;;;0.92;;;;1.123762
+26/11/2024;SECURITIES_TRANSACTION_OTHER;"""-84.4144 Palantir Securities Corporate Action""";;;0.00;USD;;;;;0;;;;
+26/11/2024;SECURITIES_TRANSACTION_OTHER;"""84.4144 Palantir Securities Corporate Action""";;;0.00;USD;;;;;0;;;;
+26/11/2024;CARD_TRANSACTION_OUT;"""Studler AG Baeckerei C""";-10.00;CHF;;;**** 3365;"""Seengen, CH""";"""Studler AG Baeckerei C""";;0.0;;;;
+26/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.3992x Roche""";-101.10;CHF;;;;;;;1.1;BUY;0.3992;ROG;250.5
+26/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/11/2024;CARD_TRANSACTION_OUT;"""Lidl""";-9.75;CHF;;;**** 3365;"""Zuerich, CH""";"""Lidl""";;0.0;;;;
+26/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-9.95;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+27/11/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4000.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+27/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/11/2024;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;4000.00;CHF;;;"""Notfall""";;;;;;
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""2.4732x USA Tech (SPDR S&P US Technology)""";-301.95;USD;;;;;;;1.95;BUY;2.4732;SXLK;121.3
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""5.3146x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;5.3146;BAYN;18.816
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""7.3269x World Momentum (iSh MSCI World Momentum Factor)""";-603.90;USD;;;;;;;3.9;BUY;7.3269;IWMO;81.89
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-806.64;CHF;905.85;USD;;;;;7.59;;;;0.890478
+27/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-94.86;CHF;101.15;EUR;;;;;0.89;;;;0.937849
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""9.3023x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;9.3023;MOONTQ;32.25
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/11/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1000.00;CHF;;;"""Steuern""";;;;;;
+27/11/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.411x Berkshire Hathaway""";-201.28;USD;;;;;;;1.3;BUY;0.411;BRK/B;486.56
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.7465x Arm""";-101.14;USD;;;;;;;1.15;BUY;0.7465;ARM;133.95
+27/11/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.9948x Micron Technology""";-101.15;USD;;;;;;;1.15;BUY;0.9948;MU;100.52
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-359.50;CHF;403.57;USD;;;;;3.38;;;;0.890793
+27/11/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-500.00;CHF;;;;;"""Notfall""";;;;;;
+28/11/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Anoop Madassery""";-500.00;CHF;;;;;"""Anoop Madassery""";;0;;;;
+28/11/2024;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+29/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-12.70;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+30/11/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+30/11/2024;CARD_TRANSACTION_OUT;"""Coop""";-8.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+01/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/12/2024;PAYMENT_TRANSACTION_OUT;"""Transfer to Miriam Wolf""";-112.50;EUR;;;;;"""Miriam Wolf""";;0;;;;
+02/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-105.72;CHF;112.50;EUR;;;;;0.99;;;;0.939766
+02/12/2024;CARD_TRANSACTION_OUT;"""Crazy Belly""";-16.90;CHF;;;**** 3365;"""Zurich, CH""";"""Crazy Belly""";;0.0;;;;
+02/12/2024;CARD_TRANSACTION_OUT;"""Shell""";-10.45;CHF;;;**** 3365;"""Würenlos, CH""";"""Shell""";;0.0;;;;
+03/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/12/2024;CARD_TRANSACTION_OUT;"""Uber Eats""";-32.75;CHF;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber Eats""";;0.0;;;;
+03/12/2024;CARD_TRANSACTION_OUT;"""British Airways""";-60.00;GBP;;;**** 3365;"""LONDON, GB""";"""British Airways""";;0.0;;;;
+04/12/2024;CARD_TRANSACTION_OUT;"""DeepL""";-185.88;EUR;;;**** 3365;"""KOLN, DE""";"""DeepL""";;0.0;;;;
+04/12/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-200.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+04/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-174.70;CHF;185.88;EUR;;;;;1.65;;;;0.939876
+04/12/2024;CARD_TRANSACTION_OUT;"""Lidl""";-7.85;CHF;;;**** 3365;"""Zuerich, CH""";"""Lidl""";;0.0;;;;
+04/12/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+05/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-68.04;CHF;60.00;GBP;;;;;0.64;;;;1.134039
+05/12/2024;CARD_TRANSACTION_OUT;"""SumUp **Brausyndikat G""";-93.50;CHF;;;**** 3365;"""Dietikon, CH""";"""SumUp **Brausyndikat G""";;0.0;;;;
+06/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+06/12/2024;CARD_TRANSACTION_OUT;"""Marché""";-10.40;CHF;;;**** 3365;"""Zürich, CH""";"""Marché""";;0.0;;;;
+06/12/2024;CARD_TRANSACTION_OUT;"""Burger King""";-7.50;CHF;;;**** 3365;"""Zürich, CH""";"""Burger King""";;0.0;;;;
+06/12/2024;CARD_TRANSACTION_OUT;"""Moxy Hotels""";-231.00;GBP;;;**** 3365;"""HOUNSLOW, GB""";"""Moxy Hotels""";;0.0;;;;
+06/12/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-300.00;CHF;;;;;"""Notfall""";;;;;;
+07/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/12/2024;CARD_TRANSACTION_OUT;"""Tesco""";-2.20;GBP;;;**** 3365;"""HOUNSLOW, GB""";"""Tesco""";;0.0;;;;
+09/12/2024;CARD_TRANSACTION_OUT;"""Uber""";-14.92;GBP;;;**** 3365;"""LONDON, GB""";"""Uber""";;0.0;;;;
+09/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-263.56;CHF;233.20;GBP;;;;;2.48;;;;1.130203
+09/12/2024;CARD_TRANSACTION_OUT;"""Pret A Manger""";-0.99;GBP;;;**** 3365;"""Hounslow, GB""";"""Pret A Manger""";;0.0;;;;
+09/12/2024;CARD_TRANSACTION_OUT;"""The PG Group""";-2.60;GBP;;;**** 3365;"""Byfleet, GB""";"""The PG Group""";;0.0;;;;
+09/12/2024;CARD_TRANSACTION_OUT;"""K Kiosk""";-8.20;CHF;;;**** 3365;"""Zürich Flugha, CH""";"""K Kiosk""";;0.0;;;;
+09/12/2024;CARD_TRANSACTION_OUT;"""Uber""";-35.77;CHF;;;**** 3365;"""help.uber.com, NL""";"""Uber""";;0.0;;;;
+09/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-16.91;CHF;14.92;GBP;;;;;0.16;;;;1.133207
+10/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-1.12;CHF;0.99;GBP;;;;;0.01;;;;1.133389
+10/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.95;CHF;2.60;GBP;;;;;0.03;;;;1.133684
+10/12/2024;CARD_TRANSACTION_OUT;"""Parkhaus P2""";-2.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus P2""";;0.0;;;;
+11/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/12/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+12/12/2024;CARD_TRANSACTION_OUT;"""Microsoft""";-11.67;CHF;;;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft""";;0.0;;;;
+12/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+15/12/2024;CARD_TRANSACTION_OUT;"""Autop & Stützliwösch A""";-28.00;CHF;;;**** 3365;"""Aarau, CH""";"""Autop & Stützliwösch A""";;0.0;;;;
+15/12/2024;CARD_TRANSACTION_OUT;"""Coop""";-13.45;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+15/12/2024;CARD_TRANSACTION_OUT;"""Migros""";-6.60;CHF;;;**** 3365;"""Zürich, CH""";"""Migros""";;0.0;;;;
+15/12/2024;CARD_TRANSACTION_OUT;"""Parking P3""";-4.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parking P3""";;0.0;;;;
+16/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/12/2024;CARD_TRANSACTION_OUT;"""Parkingpay""";-1.25;CHF;;;**** 3365;"""Schlieren, CH""";"""Parkingpay""";;0.0;;;;
+17/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/12/2024;CARD_TRANSACTION_OUT;"""Coop""";-13.30;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+19/12/2024;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-60.00;CHF;;;;;"""Notfall""";;;;;;
+20/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/12/2024;CARD_TRANSACTION_OUT;"""SumUp **ArbensHaarStud""";-35.00;CHF;;;**** 3365;"""Dietikon, CH""";"""SumUp **ArbensHaarStud""";;0.0;;;;
+22/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/12/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4173.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""7.3448x World Momentum (iSh MSCI World Momentum Factor)""";-603.90;USD;;;;;;;3.9;BUY;7.3448;IWMO;81.69
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""2.3753x USA Tech (SPDR S&P US Technology)""";-301.95;USD;;;;;;;1.95;BUY;2.3753;SXLK;126.3
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.3979x Roche""";-101.09;CHF;;;;;;;1.1;BUY;0.3979;ROG;251.3
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""5.2493x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;5.2493;BAYN;19.05
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-823.71;CHF;905.85;USD;;;;;7.74;;;;0.909319
+27/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.78;CHF;101.15;EUR;;;;;0.90;;;;0.94692
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""9.6774x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;9.6774;MOONTQ;31.0
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/12/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/12/2024;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1000.00;CHF;;;"""Steuern""";;;;;;
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.4343x Berkshire Hathaway""";-201.29;USD;;;;;;;1.3;BUY;0.4343;BRK/B;460.49
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""0.7758x Arm""";-101.15;USD;;;;;;;1.15;BUY;0.7758;ARM;128.9
+27/12/2024;INVEST_RECURRING_ORDER_EXECUTED;"""1.1242x Micron Technology""";-101.15;USD;;;;;;;1.15;BUY;1.1242;MU;88.95
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/12/2024;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-367.03;CHF;403.59;USD;;;;;3.45;;;;0.909423
+27/12/2024;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;13.64;USD;;;;;0;;;;
+29/12/2024;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+29/12/2024;CASH_TRANSACTION_OTHER;"""Interest on deposits""";;;89.05;CHF;;;;;0;;;;
+29/12/2024;CASH_TRANSACTION_OTHER;"""Interest on deposits""";;;0.25;USD;;;;;0;;;;
+29/12/2024;CASH_TRANSACTION_OTHER;"""Interest on deposits""";;;0.06;EUR;;;;;0;;;;
+30/12/2024;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;35.38;USD;;;;;0;;;;
+30/12/2024;CARD_TRANSACTION_OUT;"""Lidl""";-6.85;CHF;;;**** 3365;"""Zuerich, CH""";"""Lidl""";;0.0;;;;
+31/12/2024;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;1080.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+31/12/2024;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+31/12/2024;CARD_TRANSACTION_OUT;"""Coop""";-16.00;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+01/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/01/2025;CARD_TRANSACTION_OUT;"""Uber""";-36.76;CHF;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber""";;0.0;;;;
+03/01/2025;CARD_TRANSACTION_OUT;"""Brezelkönig""";-23.20;CHF;;;**** 3365;"""Zürich, CH""";"""Brezelkönig""";;0.0;;;;
+03/01/2025;CARD_TRANSACTION_OUT;"""THREADNEEDLES HOTEL FO""";-341.58;GBP;;;**** 3365;"""LONDON, GB""";"""THREADNEEDLES HOTEL FO""";;0.0;;;;
+03/01/2025;CARD_TRANSACTION_OUT;"""THREADNEEDLES HOTEL FB""";-12.38;GBP;;;**** 3365;"""LONDON, GB""";"""THREADNEEDLES HOTEL FB""";;0.0;;;;
+04/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/01/2025;CARD_TRANSACTION_OUT;"""Apple""";-34.95;GBP;;;**** 3365;"""LONDON, GB""";"""Apple""";;0.0;;;;
+04/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/01/2025;CARD_TRANSACTION_OUT;"""Kiln""";-102.14;GBP;;;**** 3365;"""LONDON, GB""";"""Kiln""";;0.0;;;;
+04/01/2025;CARD_TRANSACTION_OUT;"""Uniqlo""";-159.50;GBP;;;**** 3365;"""London, GB""";"""Uniqlo""";;0.0;;;;
+04/01/2025;CARD_TRANSACTION_OUT;"""Social Bite Fund""";-3.00;GBP;;;**** 3365;"""Edinburgh, GB""";"""Social Bite Fund""";;0.0;;;;
+04/01/2025;CARD_TRANSACTION_OUT;"""Lush""";-62.05;GBP;;;**** 3365;"""London, GB""";"""Lush""";;0.0;;;;
+05/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/01/2025;CARD_TRANSACTION_OUT;"""Hoppers""";-78.63;GBP;;;**** 3365;"""LONDON  W1D, GB""";"""Hoppers""";;0.0;;;;
+05/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/01/2025;CARD_TRANSACTION_OUT;"""62 Threadneedle""";-6.40;GBP;;;**** 3365;"""LONDON, GB""";"""62 Threadneedle""";;0.0;;;;
+05/01/2025;CARD_TRANSACTION_OUT;"""Pulia""";-24.19;GBP;;;**** 3365;"""London, GB""";"""Pulia""";;0.0;;;;
+05/01/2025;CARD_TRANSACTION_OUT;"""Kolae""";-83.14;GBP;;;**** 3365;"""LONDON  SE1, GB""";"""Kolae""";;0.0;;;;
+06/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+06/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-454.72;CHF;398.21;GBP;;;;;4.28;;;;1.141902
+06/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+06/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-94.92;CHF;83.14;GBP;;;;;0.89;;;;1.141722
+06/01/2025;CARD_TRANSACTION_OUT;"""Pret A Manger""";-4.10;GBP;;;**** 3365;"""Hounslow, GB""";"""Pret A Manger""";;0.0;;;;
+06/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-2.95;CHF;;;**** 3365;"""Zürich, CH""";"""Coop""";;0.0;;;;
+06/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+06/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-89.69;CHF;78.63;GBP;;;;;0.84;;;;1.140676
+06/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+06/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-7.30;CHF;6.40;GBP;;;;;0.07;;;;1.140056
+06/01/2025;CARD_TRANSACTION_OUT;"""Steiner Flughafebeck AG""";-7.00;CHF;;;**** 3365;"""Zürich, CH""";"""Steiner Flughafebeck AG""";;0.0;;;;
+06/01/2025;CARD_TRANSACTION_OUT;"""Migros""";-10.55;CHF;;;**** 3365;"""Schlieren, CH""";"""Migros""";;0.0;;;;
+07/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-391.91;CHF;341.58;GBP;;;;;3.69;;;;1.147334
+07/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-4.70;CHF;4.10;GBP;;;;;0.04;;;;1.147389
+08/01/2025;CARD_TRANSACTION_OUT;"""Evernote""";-109.00;CHF;;;**** 3365;"""San Diego, US""";"""Evernote""";;0.0;;;;
+08/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-9.60;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+10/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/01/2025;CARD_TRANSACTION_OUT;"""Migros""";-58.75;CHF;;;**** 3365;"""Zürich, CH""";"""Migros""";;0.0;;;;
+11/01/2025;CARD_TRANSACTION_OUT;"""Oscar's Group""";-17.90;CHF;;;**** 3365;"""Balsthal, CH""";"""Oscar's Group""";;0.0;;;;
+12/01/2025;CARD_TRANSACTION_OUT;"""Microsoft""";-11.67;CHF;;;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft""";;0.0;;;;
+12/01/2025;CARD_TRANSACTION_OUT;"""LimmatSpot""";-2.50;CHF;;;**** 3365;"""Spreitenbach, CH""";"""LimmatSpot""";;0.0;;;;
+12/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-10.30;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+12/01/2025;CARD_TRANSACTION_OUT;"""Avec""";-2.50;CHF;;;**** 3365;"""Zürich, CH""";"""Avec""";;0.0;;;;
+12/01/2025;CARD_TRANSACTION_OUT;"""Caffé Handelshof""";-45.00;CHF;;;**** 3365;"""Zürich, CH""";"""Caffé Handelshof""";;0.0;;;;
+13/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/01/2025;CARD_TRANSACTION_OUT;"""Crazy Belly""";-20.80;CHF;;;**** 3365;"""Zurich, CH""";"""Crazy Belly""";;0.0;;;;
+13/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-10.90;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+14/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/01/2025;CARD_TRANSACTION_OUT;"""Tamoil""";-11.15;CHF;;;**** 3365;"""Dietikon, CH""";"""Tamoil""";;0.0;;;;
+14/01/2025;REWARD_RECEIVED;"""Referral bonus""";;;;;;;;;;;500;SWQ;
+15/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+15/01/2025;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.23;USD;;;;;0.1;;;;
+15/01/2025;CARD_TRANSACTION_OUT;"""Crazy Belly""";-16.90;CHF;;;**** 3365;"""Zurich, CH""";"""Crazy Belly""";;0.0;;;;
+15/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/01/2025;CARD_TRANSACTION_OUT;"""Hungry Pita""";-18.00;CHF;;;**** 3365;"""Volketswil, CH""";"""Hungry Pita""";;0.0;;;;
+16/01/2025;CARD_TRANSACTION_OUT;"""K Kiosk""";-11.15;CHF;;;**** 3365;"""Zürich, CH""";"""K Kiosk""";;0.0;;;;
+17/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/01/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-400.00;CHF;;;;;"""Notfall""";;;;;;
+17/01/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;400.00;CHF;;;"""Notfall""";;;;;;
+17/01/2025;CARD_TRANSACTION_OUT;"""Parkhaus P2""";-2.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus P2""";;0.0;;;;
+18/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+18/01/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-400.00;CHF;;;;;"""Notfall""";;;;;;
+18/01/2025;CARD_TRANSACTION_OUT;"""Suwannaphum""";-62.50;CHF;;;**** 3365;"""Schlieren, CH""";"""Suwannaphum""";;0.0;;;;
+18/01/2025;CARD_TRANSACTION_OUT;"""Stalder Wash""";-22.00;CHF;;;**** 3365;"""Dürrenäsch, CH""";"""Stalder Wash""";;0.0;;;;
+18/01/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-100.00;CHF;;;;;"""Notfall""";;;;;;
+18/01/2025;CARD_TRANSACTION_OUT;"""HOTEL INDIGO TOWER HIL""";-413.08;GBP;;;**** 3365;"""LONDON, GB""";"""HOTEL INDIGO TOWER HIL""";;0.0;;;;
+19/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/01/2025;CARD_TRANSACTION_OUT;"""Migros""";-16.65;CHF;;;**** 3365;"""Zürich, CH""";"""Migros""";;0.0;;;;
+19/01/2025;CARD_TRANSACTION_OUT;"""Parkhaus P2""";-4.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus P2""";;0.0;;;;
+19/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-8.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+20/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-464.02;CHF;413.08;GBP;;;;;4.37;;;;1.123317
+20/01/2025;CARD_TRANSACTION_OUT;"""Vending Service AG""";-2.00;CHF;;;**** 3365;"""Fulenbach, CH""";"""Vending Service AG""";;0.0;;;;
+21/01/2025;CARD_TRANSACTION_OUT;"""K Kiosk""";-11.40;CHF;;;**** 3365;"""Dietikon, CH""";"""K Kiosk""";;0.0;;;;
+21/01/2025;CARD_TRANSACTION_OUT;"""Pret A Manger""";-17.20;CHF;;;**** 3365;"""Zürich, CH""";"""Pret A Manger""";;0.0;;;;
+21/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/01/2025;CARD_TRANSACTION_OUT;"""So! Coffee""";-5.62;CHF;;;**** 3365;"""Poznan, PL""";"""So! Coffee""";;0.0;;;;
+22/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/01/2025;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4652.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+27/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-4.50;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8512x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.46;CHF;;;;;;;0.45;BUY;0.8512;EQCH;352.45
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.7326x World (Vanguard FTSE All-World Dis)""";-600.90;CHF;;;;;;;0.9;BUY;4.7326;VWRL;126.78
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3628x Roche""";-101.09;CHF;;;;;;;1.1;BUY;0.3628;ROG;275.6
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.7642x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;4.7642;BAYN;20.99
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""9.6246x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;9.6246;MOONTQ;31.17
+27/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-96.66;CHF;101.09;EUR;;;;;0.91;;;;0.956207
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/01/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/01/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/01/2025;CARD_TRANSACTION_OUT;"""Food-Stoffi""";-6.50;CHF;;;**** 3365;"""Rotkreuz, CH""";"""Food-Stoffi""";;0.0;;;;
+27/01/2025;CARD_TRANSACTION_OUT;"""kkiosk 168.33""";-8.20;CHF;;;**** 3365;"""Rotkreuz, CH""";"""kkiosk 168.33""";;0.0;;;;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4292x Berkshire Hathaway""";-201.32;USD;;;;;;;1.3;BUY;0.4292;BRK/B;466.02
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.6677x Arm""";-101.14;USD;;;;;;;1.15;BUY;0.6677;ARM;149.76
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.0579x Micron Technology""";-101.15;USD;;;;;;;1.15;BUY;1.0579;MU;94.53
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8547x AMD""";-101.15;USD;;;;;;;1.15;BUY;0.8547;AMD;117.0
+27/01/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-137.88;CHF;151.82;USD;;;;;1.30;;;;0.908156
+27/01/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-275.83;CHF;303.44;USD;;;;;2.59;;;;0.909015
+28/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/01/2025;CARD_TRANSACTION_OUT;"""Vending Service AG""";-2.00;CHF;;;**** 3365;"""Fulenbach, CH""";"""Vending Service AG""";;0.0;;;;
+28/01/2025;CARD_TRANSACTION_OUT;"""Crazy Belly""";-16.90;CHF;;;**** 3365;"""Zurich, CH""";"""Crazy Belly""";;0.0;;;;
+29/01/2025;CARD_TRANSACTION_OUT;"""K Kiosk""";-10.20;CHF;;;**** 3365;"""ZUERICH, CH""";"""K Kiosk""";;0.0;;;;
+29/01/2025;CARD_TRANSACTION_OUT;"""Parkhaus P2""";-6.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus P2""";;0.0;;;;
+29/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+29/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+29/01/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+30/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+30/01/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+30/01/2025;CARD_TRANSACTION_OUT;"""Uber Eats""";-62.65;CHF;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber Eats""";;0.0;;;;
+31/01/2025;CARD_TRANSACTION_OUT;"""Prontophot""";-15.00;CHF;;;**** 3365;"""Duebendorf, CH""";"""Prontophot""";;0.0;;;;
+31/01/2025;CARD_TRANSACTION_OUT;"""Coop""";-12.25;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+31/01/2025;CARD_TRANSACTION_OUT;"""Parkhaus P2""";-2.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus P2""";;0.0;;;;
+01/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/02/2025;CARD_TRANSACTION_OUT;"""Uber""";-34.54;CHF;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber""";;0.0;;;;
+01/02/2025;CARD_TRANSACTION_OUT;"""Alpenblick Bar""";-15.60;CHF;;;**** 3365;"""Zürich, CH""";"""Alpenblick Bar""";;0.0;;;;
+01/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/02/2025;CARD_TRANSACTION_OUT;"""Uber""";-61.00;AED;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber""";;0.0;;;;
+02/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/02/2025;CARD_TRANSACTION_OUT;"""Airalo""";-19.95;USD;;;**** 3365;"""SINGAPORE, SG""";"""Airalo""";;0.0;;;;
+03/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/02/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-18.46;CHF;19.95;USD;;;;;0.17;;;;0.925266
+03/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+03/02/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-15.37;CHF;61.00;AED;;;;;0.14;;;;0.252019
+04/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/02/2025;CARD_TRANSACTION_OUT;"""Microsoft""";-11.67;CHF;;;**** 3365;"""MSBILL.INFO, IE""";"""Microsoft""";;0.0;;;;
+12/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-1000.00;CHF;;;;;"""Notfall""";;;;;;
+13/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/02/2025;CARD_TRANSACTION_OUT;"""PHUKET MARRIOTT RESORT""";-408.17;CHF;;;**** 3365;"""PHUKET, TH""";"""PHUKET MARRIOTT RESORT""";;0.0;;;;
+13/02/2025;CARD_TRANSACTION_OUT;"""AVISTA RESORT&SPA PATO""";-129.80;CHF;;;**** 3365;"""PHUKET, TH""";"""AVISTA RESORT&SPA PATO""";;0.0;;;;
+14/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/02/2025;CARD_TRANSACTION_OUT;"""TMT TOUR & TRAVEL""";-75.15;CHF;;;**** 3365;"""PHUKET, TH""";"""TMT TOUR & TRAVEL""";;0.0;;;;
+14/02/2025;CARD_TRANSACTION_OUT;"""CROCS(00867)-JUNGCELON""";-64.36;CHF;;;**** 3365;"""PHUKET, TH""";"""CROCS(00867)-JUNGCELON""";;0.0;;;;
+15/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+15/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+15/02/2025;CARD_TRANSACTION_OUT;"""Courtyard by Marriott""";-317.64;CHF;;;**** 3365;"""PHUKET, TH""";"""Courtyard by Marriott""";;0.0;;;;
+15/02/2025;CARD_TRANSACTION_OUT;"""3240 WATSONS TILOKUTHI""";-11.62;CHF;;;**** 3365;"""PHUKET, TH""";"""3240 WATSONS TILOKUTHI""";;0.0;;;;
+15/02/2025;CARD_TRANSACTION_OUT;"""Courtyard by Marriott""";-8.91;CHF;;;**** 3365;"""PHUKET, TH""";"""Courtyard by Marriott""";;0.0;;;;
+15/02/2025;CARD_TRANSACTION_OUT;"""PANCAKE CORNER-TALAT Y""";-13.79;CHF;;;**** 3365;"""PHUKET, TH""";"""PANCAKE CORNER-TALAT Y""";;0.0;;;;
+16/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Steuern»""";-250.00;CHF;;;;;"""Steuern""";;;;;;
+16/02/2025;CARD_TRANSACTION_OUT;"""ENTERTAINMENT ISLAND P""";-48.65;CHF;;;**** 3365;"""PHUKET, TH""";"""ENTERTAINMENT ISLAND P""";;0.0;;;;
+16/02/2025;CARD_TRANSACTION_OUT;"""00088-FUJI(PHUKET JUNG""";-13.68;CHF;;;**** 3365;"""PHUKET, TH""";"""00088-FUJI(PHUKET JUNG""";;0.0;;;;
+16/02/2025;CARD_TRANSACTION_OUT;"""SUPHANAN TRAVEL""";-39.36;CHF;;;**** 3365;"""PHUKET, TH""";"""SUPHANAN TRAVEL""";;0.0;;;;
+16/02/2025;CARD_TRANSACTION_OUT;"""Hotel Baya""";-91.94;CHF;;;**** 3365;"""PHUKET, TH""";"""Hotel Baya""";;4.9;;;;
+17/02/2025;CARD_TRANSACTION_OUT;"""THE TENT""";-4.05;CHF;;;**** 3365;"""PHUKET, TH""";"""THE TENT""";;0.0;;;;
+17/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+18/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+18/02/2025;CARD_TRANSACTION_OUT;"""AIR Restaurant""";-17.60;CHF;;;**** 3365;"""Zürich, CH""";"""AIR Restaurant""";;0.0;;;;
+18/02/2025;CARD_TRANSACTION_OUT;"""Parking P3""";-6.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parking P3""";;0.0;;;;
+18/02/2025;CARD_TRANSACTION_OUT;"""Uber""";-38.52;CHF;;;**** 3365;"""help.uber.com, NL""";"""Uber""";;0.0;;;;
+19/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/02/2025;CARD_TRANSACTION_OUT;"""K Kiosk""";-3.20;CHF;;;**** 3365;"""Dietikon, CH""";"""K Kiosk""";;0.0;;;;
+20/02/2025;CARD_TRANSACTION_OUT;"""Barbière Bern""";-30.00;CHF;;;**** 3365;"""Bern, CH""";"""Barbière Bern""";;0.0;;;;
+21/02/2025;CARD_TRANSACTION_OUT;"""Whoop""";-264.00;EUR;;;**** 3365;"""BOSTON, US""";"""Whoop""";;0.0;;;;
+21/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-300.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+21/02/2025;CARD_TRANSACTION_OUT;"""Eurest""";-0.50;CHF;;;**** 3365;"""Bern, CH""";"""Eurest""";;0.0;;;;
+21/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/02/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-250.74;CHF;264.00;EUR;;;;;2.36;;;;0.949784
+21/02/2025;CARD_TRANSACTION_OUT;"""Brezelkönig""";-7.40;CHF;;;**** 3365;"""BERN, CH""";"""Brezelkönig""";;0.0;;;;
+21/02/2025;CARD_TRANSACTION_OUT;"""The Body Shop""";-15.95;CHF;;;**** 3365;"""Zürich, CH""";"""The Body Shop""";;0.0;;;;
+21/02/2025;CARD_TRANSACTION_OUT;"""Coop""";-4.65;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+22/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/02/2025;CARD_TRANSACTION_OUT;"""SumUp **Egis Cake GmbH""";-16.70;CHF;;;**** 3365;"""Dietikon, CH""";"""SumUp **Egis Cake GmbH""";;0.0;;;;
+22/02/2025;CARD_TRANSACTION_OUT;"""Coop""";-1.70;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+22/02/2025;CARD_TRANSACTION_OUT;"""Parking P3""";-5.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parking P3""";;0.0;;;;
+22/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/02/2025;CARD_TRANSACTION_OUT;"""Coop""";-2.50;CHF;;;**** 3365;"""Zürich, CH""";"""Coop""";;0.0;;;;
+23/02/2025;CARD_TRANSACTION_OUT;"""Coop""";-27.20;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+23/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+24/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/02/2025;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4652.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+26/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3369x Roche""";-100.09;CHF;;;;;;;0.1;BUY;0.3369;ROG;296.8
+26/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/02/2025;CARD_TRANSACTION_OUT;"""Whoop""";-264.00;EUR;;;**** 3365;"""BOSTON, US""";"""Whoop""";;0.0;;;;
+26/02/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/02/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-250.16;CHF;264.00;EUR;;;;;2.35;;;;0.947594
+26/02/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8479x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.44;CHF;;;;;;;0.45;BUY;0.8479;EQCH;353.8
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.7015x World (Vanguard FTSE All-World Dis)""";-600.91;CHF;;;;;;;0.9;BUY;4.7015;VWRL;127.62
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.4238x Bayer""";-100.15;EUR;;;;;;;0.15;BUY;4.4238;BAYN;22.605
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.03;CHF;100.15;EUR;;;;;0.89;;;;0.948882
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""12.5997x Crypto Muesli""";-300.00;CHF;;;;;;;0;BUY;12.5997;MOONTQ;23.81
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/02/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/02/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;500.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3986x Berkshire Hathaway""";-200.28;USD;;;;;;;0.3;BUY;0.3986;BRK/B;501.71
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7204x Arm""";-100.15;USD;;;;;;;0.15;BUY;0.7204;ARM;138.81
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.0381x Micron Technology""";-100.15;USD;;;;;;;0.15;BUY;1.0381;MU;96.33
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.9591x AMD""";-100.15;USD;;;;;;;0.15;BUY;0.9591;AMD;104.26
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/02/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-454.97;CHF;500.73;USD;;;;;4.28;;;;0.908604
+27/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Steuern»""";-10859.40;CHF;;;;;"""Steuern""";;;;;;
+27/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-402.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+27/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Steuern»""";-3265.00;CHF;;;;;"""Steuern""";;;;;;
+27/02/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Steuern»""";-209.00;CHF;;;;;"""Steuern""";;;;;;
+28/02/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Stadt Dietikon""";-10859.40;CHF;;;;;"""Stadt Dietikon""";;0;;;;
+28/02/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Stadt Dietikon""";-3265.00;CHF;;;;;"""Stadt Dietikon""";;0;;;;
+28/02/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Dr. med. Miroslav Risti FMH Innere""";-402.45;CHF;;;;;"""Dr. med. Miroslav Risti FMH Innere""";;0;;;;
+28/02/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Strassenverkehrsamt Kanton Zurich""";-20.00;CHF;;;;;"""Strassenverkehrsamt Kanton Zurich""";;0;;;;
+28/02/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Kanton Zurich""";-209.20;CHF;;;;;"""Kanton Zurich""";;0;;;;
+01/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-300.00;CHF;;;;;"""Notfall""";;;;;;
+01/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-100.00;CHF;;;;;"""Notfall""";;;;;;
+01/03/2025;CARD_TRANSACTION_OUT;"""Torre""";-350.00;CHF;;;**** 3365;"""Baden, CH""";"""Torre""";;0.0;;;;
+02/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-40.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+07/03/2025;CARD_TRANSACTION_OUT;"""Uber""";-38.29;CHF;;;**** 3365;"""HELP.UBER.COM, NL""";"""Uber""";;0.0;;;;
+07/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-100.00;CHF;;;;;"""Notfall""";;;;;;
+07/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-300.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+07/03/2025;CARD_TRANSACTION_OUT;"""Courtyard by Marriott""";-270.90;GBP;;;**** 3365;"""HAYES, GB""";"""Courtyard by Marriott""";;0.0;;;;
+07/03/2025;CARD_TRANSACTION_OUT;"""Courtyard by Marriott""";-68.00;GBP;;;**** 3365;"""HAYES, GB""";"""Courtyard by Marriott""";;0.0;;;;
+08/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/03/2025;CARD_TRANSACTION_OUT;"""Turnips""";-8.50;GBP;;;**** 3365;"""London, GB""";"""Turnips""";;0.0;;;;
+09/03/2025;CARD_TRANSACTION_OUT;"""Turnips""";-8.75;GBP;;;**** 3365;"""London, GB""";"""Turnips""";;0.0;;;;
+10/03/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-388.22;CHF;338.90;GBP;;;;;3.65;;;;1.145535
+10/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/03/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-19.77;CHF;17.25;GBP;;;;;0.19;;;;1.146109
+12/03/2025;CARD_TRANSACTION_OUT;"""Microsoft""";-11.67;CHF;;;**** 3365;"""Dublin, IE""";"""Microsoft""";;0.0;;;;
+12/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/03/2025;CARD_TRANSACTION_OUT;"""Coop""";-3.25;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+13/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Steuern»""";-1600.00;CHF;;;;;"""Steuern""";;;;;;
+13/03/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-1000.00;CHF;;;;;"""Notfall""";;;;;;
+14/03/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Kanton Zurich""";-2420.20;CHF;;;;;"""Kanton Zurich""";;0;;;;
+14/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/03/2025;CARD_TRANSACTION_OUT;"""Brezelkönig""";-7.50;CHF;;;**** 3365;"""ZUERICH, CH""";"""Brezelkönig""";;0.0;;;;
+15/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+18/03/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to SGD GmbH""";-60.00;CHF;;;;;"""SGD GmbH""";;0;;;;
+26/03/2025;PAYMENT_TRANSACTION_IN;"""Transfer from ANISH MADASSERY""";;;4200.00;CHF;;;;"""ANISH MADASSERY""";0;;;;
+26/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3295x Roche""";-101.10;CHF;;;;;;;1.1;BUY;0.3295;ROG;303.5
+26/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.9087x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.46;CHF;;;;;;;0.45;BUY;0.9087;EQCH;330.15
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.9156x World (Vanguard FTSE All-World Dis)""";-600.90;CHF;;;;;;;0.9;BUY;4.9156;VWRL;122.06
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.4326x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;4.4326;BAYN;22.56
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-97.14;CHF;101.15;EUR;;;;;0.91;;;;0.960395
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""13.4892x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;13.4892;MOONTQ;22.24
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/03/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/03/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3757x Berkshire Hathaway""";-201.29;USD;;;;;;;1.3;BUY;0.3757;BRK/B;532.3
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8922x Arm""";-101.15;USD;;;;;;;1.15;BUY;0.8922;ARM;112.08
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.0985x Micron Technology""";-101.15;USD;;;;;;;1.15;BUY;1.0985;MU;91.03
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.9347x AMD""";-101.15;USD;;;;;;;1.15;BUY;0.9347;AMD;106.99
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/03/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-449.84;CHF;504.74;USD;;;;;4.23;;;;0.891225
+29/03/2025;CARD_TRANSACTION_OUT;"""Uber""";-14.15;EUR;;;**** 3365;"""AMSTERDAM, NL""";"""Uber""";;0.0;;;;
+29/03/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+30/03/2025;CARD_TRANSACTION_OUT;"""Burger King""";-7.50;CHF;;;**** 3365;"""Kloten, CH""";"""Burger King""";;0.0;;;;
+30/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+30/03/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-13.61;CHF;14.15;EUR;;;;;0.13;;;;0.961594
+31/03/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+31/03/2025;CASH_TRANSACTION_RELATED_OTHER;"""Roche Dividend""";;;24.10;CHF;;;;;12.97;;;;
+01/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/04/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;18.57;USD;;;;;0;;;;
+03/04/2025;CARD_TRANSACTION_OUT;"""Brezelkönig""";-7.50;CHF;;;**** 3365;"""ZUERICH, CH""";"""Brezelkönig""";;0.0;;;;
+03/04/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;36.80;USD;;;;;0;;;;
+04/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/04/2025;CARD_TRANSACTION_OUT;"""Bolt""";-2.68;CHF;;;**** 3365;"""Tallinn, EE""";"""Bolt""";;0.0;;;;
+09/04/2025;CARD_TRANSACTION_OUT;"""Bolt""";-3.92;CHF;;;**** 3365;"""Tallinn, EE""";"""Bolt""";;0.0;;;;
+10/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/04/2025;CARD_TRANSACTION_OUT;"""Microsoft""";-11.67;CHF;;;**** 3365;"""Dublin, IE""";"""Microsoft""";;0.0;;;;
+12/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+15/04/2025;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.49;USD;;;;;0.21;;;;
+17/04/2025;CARD_TRANSACTION_OUT;"""Parkhaus P2""";-4.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus P2""";;0.0;;;;
+18/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+20/04/2025;CARD_TRANSACTION_OUT;"""Coop""";-2.10;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+21/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+24/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-933.00;CHF;;;;;"""Notfall""";;;;;;
+25/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-582.67;CHF;;;;;"""Anish Madassery""";;0;;;;
+25/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anish""";-350.00;CHF;;;;;"""Madassery Anish""";;0;;;;
+25/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-500.00;CHF;;;;;"""Notfall""";;;;;;
+25/04/2025;CARD_TRANSACTION_OUT;"""Aligro""";-199.80;CHF;;;**** 3365;"""Schlieren, CH""";"""Aligro""";;0.0;;;;
+25/04/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;300.00;CHF;;;"""Notfall""";;;;;;
+25/04/2025;CARD_TRANSACTION_OUT;"""P2 Parkhaus Ein- & Aus""";-2.00;CHF;;;**** 3365;"""Zürich, CH""";"""P2 Parkhaus Ein- & Aus""";;0.0;;;;
+25/04/2025;CARD_TRANSACTION_OUT;"""P2 Parkhaus Ein- & Aus""";-5.00;CHF;;;**** 3365;"""Zürich, CH""";"""P2 Parkhaus Ein- & Aus""";;0.0;;;;
+26/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/04/2025;CARD_TRANSACTION_OUT;"""Coop Pronto""";-6.65;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop Pronto""";;0.0;;;;
+27/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anish""";-40.00;CHF;;;;;"""Madassery Anish""";;0;;;;
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""300 CHF of Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc) declined""";-300.45;EQCH;;;;;;;0.45;BUY;300;EQCH;321.25
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 EUR of Bayer declined""";-101.15;BAYN;;;;;;;1.15;BUY;100;BAYN;22.845
+28/04/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3824x Roche""";-101.10;CHF;;;;;;;1.1;BUY;0.3824;ROG;261.5
+28/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""600 CHF of World ESG (Vanguard ESG Global All Cap) declined""";-600.90;V3AA;;;;;;;0.9;BUY;600;V3AA;5.222
+28/04/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange United States dollars""";-1.87;USD;1.54;CHF;;;;;0.02;;;;1.216248
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""300 CHF of Crypto Muesli declined""";-301.50;MOONTQ;;;;;;;1.5;BUY;300;MOONTQ;20.77
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""200 USD of Berkshire Hathaway declined""";-201.30;BRK/B;;;;;;;1.30;BUY;200;BRK/B;534.68
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Micron Technology declined""";-101.15;MU;;;;;;;1.15;BUY;100;MU;79.025
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Arm declined""";-101.15;ARM;;;;;;;1.15;BUY;100;ARM;112.51
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of AMD declined""";-101.15;AMD;;;;;;;1.15;BUY;100;AMD;96.32
+28/04/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Rivian declined""";-101.15;RIVN;;;;;;;1.15;BUY;100;RIVN;13.05
+28/04/2025;CARD_TRANSACTION_OUT;"""Bolt""";-3.14;CHF;;;**** 3365;"""Tallinn, EE""";"""Bolt""";;0.0;;;;
+28/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-3300.00;CHF;;;;;"""Notfall""";;;;;;
+28/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-200.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+28/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anoop""";-10.00;CHF;;;;;"""Madassery Anoop""";;0;;;;
+28/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anoop""";-3490.00;CHF;;;;;"""Madassery Anoop""";;0;;;;
+28/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-235.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+28/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-235.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+28/04/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+29/04/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+29/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Hochschule Luzern""";-235.00;CHF;;;;;"""Hochschule Luzern""";;0;;;;
+29/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Dr. med. Miroslav Risti FMH Innere""";-234.85;CHF;;;;;"""Dr. med. Miroslav Risti FMH Innere""";;0;;;;
+29/04/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange United States dollars""";-3.67;USD;2.99;CHF;;;;;0.03;;;;1.226255
+29/04/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-10.00;CHF;;;;;"""Notfall""";;;;;;
+29/04/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anish""";-10.00;CHF;;;;;"""Madassery Anish""";;0;;;;
+29/04/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+29/04/2025;GOAL_DEPOSIT;"""Deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+29/04/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+29/04/2025;GOAL_DEPOSIT;"""Deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+29/04/2025;INVEST_ORDER_EXECUTED;"""0.8921x Arm""";-101.15;USD;;;;;;;1.15;BUY;0.8921;ARM;112.09
+29/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/04/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-42.27;CHF;50.83;USD;;;;;0.40;;;;0.831687
+29/04/2025;INVEST_ORDER_EXECUTED;"""1.0407x AMD""";-101.15;USD;;;;;;;1.15;BUY;1.0407;AMD;96.09
+29/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/04/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-84.11;CHF;101.15;USD;;;;;0.79;;;;0.831562
+30/04/2025;INVEST_ORDER_EXECUTED;"""0.9294x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-301.96;CHF;;;;;;;1.95;BUY;0.9294;EQCH;322.8
+30/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+30/04/2025;INVEST_ORDER_EXECUTED;"""14.6699x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;14.6699;MOONTQ;20.45
+30/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+30/04/2025;INVEST_ORDER_EXECUTED;"""4.3085x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;4.3085;BAYN;23.21
+30/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+30/04/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.85;CHF;101.15;EUR;;;;;0.90;;;;0.947629
+30/04/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;1000.00;CHF;;;"""Notfall""";;;;;;
+30/04/2025;INVEST_ORDER_EXECUTED;"""115.6292x World ESG (Vanguard ESG Global All Cap)""";-603.90;CHF;;;;;;;3.9;BUY;115.6292;V3AA;5.189
+30/04/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+30/04/2025;CASH_TRANSACTION_RELATED_OTHER;"""Bayer Dividend""";;;5.97;EUR;;;;;2.14;;;;
+01/05/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/05/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-500.00;CHF;;;;;"""Notfall""";;;;;;
+01/05/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-57.00;CHF;;;;;"""Notfall""";;;;;;
+03/05/2025;CARD_TRANSACTION_OUT;"""NYX*ShellEbenSuedRottm""";-0.70;EUR;;;**** 3365;"""EbenimPongau, AT""";"""NYX*ShellEbenSuedRottm""";;0.0;;;;
+13/05/2025;CARD_TRANSACTION_OUT;"""FCB AG-TV.Plus""";-3.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FCB AG-TV.Plus""";;0.0;;;;
+13/05/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/05/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+26/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""109.2896x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;109.2896;V3AA;5.49
+26/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3818x Roche""";-101.09;CHF;;;;;;;1.1;BUY;0.3818;ROG;261.9
+26/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/05/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/05/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8546x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.46;CHF;;;;;;;0.45;BUY;0.8546;EQCH;351.05
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.1517x ASML""";-101.15;EUR;;;;;;;1.15;BUY;0.1517;ASML;659.2
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""4.038x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;4.038;BAYN;24.765
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-188.74;CHF;200.03;EUR;;;;;1.78;;;;0.943552
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""12.3001x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;12.3001;MOONTQ;24.39
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.395x Berkshire Hathaway""";-201.31;USD;;;;;;;1.3;BUY;0.395;BRK/B;506.35
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7591x Arm""";-101.15;USD;;;;;;;1.15;BUY;0.7591;ARM;131.73
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8789x AMD""";-101.15;USD;;;;;;;1.15;BUY;0.8789;AMD;113.78
+27/05/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/05/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-167.80;CHF;201.31;USD;;;;;1.58;;;;0.833563
+27/05/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-168.59;CHF;202.30;USD;;;;;1.59;;;;0.833368
+29/05/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+31/05/2025;CARD_TRANSACTION_OUT;"""Bistro Lunch Time""";-8.50;CHF;;;**** 3365;"""Dietikon, CH""";"""Bistro Lunch Time""";;0.0;;;;
+31/05/2025;CARD_TRANSACTION_OUT;"""Aldi""";-4.95;CHF;;;**** 3365;"""Dietikon, CH""";"""Aldi""";;0.0;;;;
+01/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/06/2025;CARD_TRANSACTION_OUT;"""FC Bayern Munich""";-3.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FC Bayern Munich""";;0.0;;;;
+10/06/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.84;CHF;3.00;EUR;;;;;0.03;;;;0.946435
+10/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/06/2025;CARD_TRANSACTION_OUT;"""Burger King""";-3.60;CHF;;;**** 3365;"""Kloten, CH""";"""Burger King""";;0.0;;;;
+11/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/06/2025;CARD_TRANSACTION_OUT;"""Coop""";-1.95;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop""";;0.0;;;;
+12/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/06/2025;CARD_TRANSACTION_OUT;"""Parkhaus Zentrum Interlaken""";-3.00;CHF;;;**** 3365;"""Interlaken, CH""";"""Parkhaus Zentrum Interlaken""";;0.0;;;;
+13/06/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-100.00;CHF;;;;;"""Notfall""";;;;;;
+13/06/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anoop""";-100.00;CHF;;;;;"""Madassery Anoop""";;0;;;;
+14/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/06/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-400.00;CHF;;;;;"""Notfall""";;;;;;
+14/06/2025;CARD_TRANSACTION_OUT;"""Spitex Zürich""";-1.00;CHF;;;**** 3365;"""Zürich, CH""";"""Spitex Zürich""";;0.0;;;;
+15/06/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+16/06/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-600.00;CHF;;;;;"""Notfall""";;;;;;
+17/06/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Anoop Madassery""";-1000.00;CHF;;;;;"""Anoop Madassery""";;0;;;;
+26/06/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+26/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""107.8943x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;107.8943;V3AA;5.561
+26/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3807x Roche""";-101.11;CHF;;;;;;;1.1;BUY;0.3807;ROG;262.7
+26/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/06/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/06/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.8084x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.45;CHF;;;;;;;0.45;BUY;0.8084;EQCH;371.1
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.1455x ASML""";-101.14;EUR;;;;;;;1.15;BUY;0.1455;ASML;687.2
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.7509x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;3.7509;BAYN;26.66
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-94.81;CHF;101.14;EUR;;;;;0.00;;;;0.93739
+27/06/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-94.84;CHF;101.15;EUR;;;;;0.00;;;;0.93757
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""14.1978x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;14.1978;MOONTQ;21.13
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4107x Berkshire Hathaway""";-201.29;USD;;;;;;;1.3;BUY;0.4107;BRK/B;486.94
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.6184x Arm""";-101.15;USD;;;;;;;1.15;BUY;0.6184;ARM;161.7
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.6858x AMD""";-101.15;USD;;;;;;;1.15;BUY;0.6858;AMD;145.81
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/06/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-325.49;CHF;403.59;USD;;;;;3.06;;;;0.806497
+28/06/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+30/06/2025;INVEST_ORDER_EXECUTED;"""1.1551x Blockchain""";;;125.86;CHF;;;;;1.2;SELL;1.1551;BCHE;110.0
+30/06/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+30/06/2025;CARD_TRANSACTION_OUT;"""Coop""";-19.50;CHF;;;**** 3365;"""Bellinzona, CH""";"""Coop""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Marché Bellinzona Süd""";-1.00;CHF;;;**** 3365;"""Monte Carasso, CH""";"""Marché Bellinzona Süd""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Marché""";-1.00;CHF;;;**** 3365;"""Monte Carasso, CH""";"""Marché""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Ionity""";-25.98;CHF;;;**** 3365;"""Zuerich, CH""";"""Ionity""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Lurag Luzerner Raststä""";-1.00;CHF;;;**** 3365;"""Rothenburg, CH""";"""Lurag Luzerner Raststä""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Raststätte Luzerner""";-1.00;CHF;;;**** 3365;"""Rothenburg, CH""";"""Raststätte Luzerner""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Lurag Luzerner Raststä""";-1.00;CHF;;;**** 3365;"""Rothenburg, CH""";"""Lurag Luzerner Raststä""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Raststätte Luzerner""";-1.00;CHF;;;**** 3365;"""Rothenburg, CH""";"""Raststätte Luzerner""";;0.0;;;;
+30/06/2025;CARD_TRANSACTION_OUT;"""Coop Pronto""";-5.75;CHF;;;**** 3365;"""Rothenburg, CH""";"""Coop Pronto""";;0.0;;;;
+01/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/07/2025;CARD_TRANSACTION_OUT;"""FC Bayern Munich""";-50.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FC Bayern Munich""";;0.0;;;;
+02/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-47.08;CHF;50.00;EUR;;;;;0.44;;;;0.941655
+02/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/07/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;38.98;USD;;;;;0;;;;
+03/07/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;68.80;USD;;;;;0;;;;
+06/07/2025;CARD_TRANSACTION_OUT;"""Gotthard Raststätte""";-1.00;CHF;;;**** 3365;"""Schattdorf, CH""";"""Gotthard Raststätte""";;0.0;;;;
+06/07/2025;CARD_TRANSACTION_OUT;"""Gotthard Raststätte""";-1.00;CHF;;;**** 3365;"""Schattdorf, CH""";"""Gotthard Raststätte""";;0.0;;;;
+06/07/2025;CARD_TRANSACTION_OUT;"""Gotthard Raststätte""";-1.00;CHF;;;**** 3365;"""Schattdorf, CH""";"""Gotthard Raststätte""";;0.0;;;;
+06/07/2025;CARD_TRANSACTION_OUT;"""Gotthard Raststätte""";-1.00;CHF;;;**** 3365;"""Schattdorf, CH""";"""Gotthard Raststätte""";;0.0;;;;
+06/07/2025;CARD_TRANSACTION_OUT;"""Gotthard Raststätte""";-1.00;CHF;;;**** 3365;"""Schattdorf, CH""";"""Gotthard Raststätte""";;0.0;;;;
+06/07/2025;CARD_TRANSACTION_OUT;"""Marché""";-1.00;CHF;;;**** 3365;"""Bellinzona, CH""";"""Marché""";;0.0;;;;
+07/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/07/2025;CARD_TRANSACTION_OUT;"""APS HOLDING S.P.A""";-4.00;EUR;;;**** 3365;"""PADOVA, IT""";"""APS HOLDING S.P.A""";;0.0;;;;
+07/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/07/2025;CARD_TRANSACTION_OUT;"""FC Bayern Munich""";-3.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FC Bayern Munich""";;0.0;;;;
+08/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.83;CHF;3.00;EUR;;;;;0.03;;;;0.94394
+08/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+08/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-3.78;CHF;4.00;EUR;;;;;0.04;;;;0.94397
+08/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/07/2025;CARD_TRANSACTION_OUT;"""ATAC""";-1.50;EUR;;;**** 3365;"""ROMA, IT""";"""ATAC""";;0.0;;;;
+10/07/2025;CARD_TRANSACTION_OUT;"""Porta Ticino Easy Stop""";-1.00;CHF;;;**** 3365;"""Coldrerio, CH""";"""Porta Ticino Easy Stop""";;0.0;;;;
+10/07/2025;CARD_TRANSACTION_OUT;"""Eni Coldrerio SN""";-1.00;CHF;;;**** 3365;"""Coldrerio, CH""";"""Eni Coldrerio SN""";;0.0;;;;
+11/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+17/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-1.41;CHF;1.50;EUR;;;;;0.01;;;;0.940851
+19/07/2025;CARD_TRANSACTION_OUT;"""Denner""";-45.05;CHF;;;**** 3365;"""Gränichen, CH""";"""Denner""";;0.0;;;;
+20/07/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/07/2025;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.49;USD;;;;;0.21;;;;
+28/07/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+28/07/2025;GOAL_DEPOSIT;"""Deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+28/07/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+28/07/2025;GOAL_DEPOSIT;"""Deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""104.2209x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;104.2209;V3AA;5.757
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.1597x ASML""";-101.14;EUR;;;;;;;1.15;BUY;0.1597;ASML;626.1
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.27;CHF;101.14;EUR;;;;;0.90;;;;0.941959
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7813x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.47;CHF;;;;;;;0.45;BUY;0.7813;EQCH;384.0
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3801x Roche""";-101.10;CHF;;;;;;;1.1;BUY;0.3801;ROG;263.1
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.4106x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;3.4106;BAYN;29.32
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""10.3448x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;10.3448;MOONTQ;29.0
+28/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.25;CHF;101.15;EUR;;;;;0.90;;;;0.941639
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4124x Berkshire Hathaway""";-201.31;USD;;;;;;;1.3;BUY;0.4124;BRK/B;485.0
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.6115x Arm""";-101.14;USD;;;;;;;1.15;BUY;0.6115;ARM;163.52
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-75.38;CHF;93.04;USD;;;;;0.71;;;;0.810241
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.5763x AMD""";-101.14;USD;;;;;;;1.15;BUY;0.5763;AMD;173.51
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;INVEST_RECURRING_ORDER_EXECUTED;"""34.6021x Lucid motors""";-101.15;USD;;;;;;;1.15;BUY;34.6021;LCID;2.89
+28/07/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-163.88;CHF;202.28;USD;;;;;1.54;;;;0.810161
+28/07/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-81.96;CHF;101.15;USD;;;;;0.77;;;;0.810246
+29/07/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+01/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/08/2025;CARD_TRANSACTION_OUT;"""Starbucks""";-4.75;GBP;;;**** 3365;"""SWINDON, GB""";"""Starbucks""";;0.0;;;;
+06/08/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to EnBW Energie Baden-Wurttemberg AG""";-7.36;EUR;;;;;"""EnBW Energie Baden-Wurttemberg AG""";;0;;;;
+06/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-6.94;CHF;7.36;EUR;;;;;0.07;;;;0.943088
+06/08/2025;CASH_TRANSACTION_RELATED_OTHER;"""ASML Dividend""";;;0.41;EUR;;;;;0.07;;;;
+06/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-5.15;CHF;4.75;GBP;;;;;0.05;;;;1.084334
+06/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+09/08/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-100.00;CHF;;;;;"""Notfall""";;;;;;
+09/08/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Orelhas Bexiga Miguel Ângelo""";-80.00;CHF;;;;;"""Orelhas Bexiga Miguel Ângelo""";;0;;;;
+10/08/2025;CARD_TRANSACTION_OUT;"""Just Eat""";-33.80;CHF;;;**** 3365;"""Zurich, CH""";"""Just Eat""";;0.0;;;;
+10/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+10/08/2025;CARD_TRANSACTION_OUT;"""Uber""";-35.88;CHF;;;**** 3365;"""AMSTERDAM, NL""";"""Uber""";;0.0;;;;
+10/08/2025;CARD_TRANSACTION_OUT;"""Uber""";-29.41;CHF;;;**** 3365;"""AMSTERDAM, NL""";"""Uber""";;0.0;;;;
+11/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+11/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/08/2025;CARD_TRANSACTION_OUT;"""FC Bayern Munich""";-3.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FC Bayern Munich""";;0.0;;;;
+12/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.46;CHF;2.59;EUR;;;;;0.02;;;;0.951602
+12/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+12/08/2025;CARD_TRANSACTION_OUT;"""Swiss Post""";-1.80;CHF;;;**** 3365;"""Dietikon 1, CH""";"""Swiss Post""";;0.0;;;;
+12/08/2025;CARD_TRANSACTION_OUT;"""Coop Pronto""";-1.95;CHF;;;**** 3365;"""Dietikon, CH""";"""Coop Pronto""";;0.0;;;;
+13/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+13/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+14/08/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-500.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+14/08/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Anish Madassery""";-500.00;CHF;;;;;"""Anish Madassery""";;0;;;;
+18/08/2025;INVEST_ORDER_EXECUTED;"""14.6717x World Momentum (iSh MSCI World Momentum Factor)""";;;1348.74;USD;;;;;8.83;SELL;14.6717;IWMO;92.53
+18/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+18/08/2025;INVEST_ORDER_EXECUTED;"""48.2763x USA Tech (SPDR S&P US Technology)""";;;6840.41;USD;;;;;44.76;SELL;48.2763;SXLK;142.62
+18/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+18/08/2025;BANK_ORDER_EXECUTED;"""Exchange United States dollars""";;;6544.38;CHF;;;;;62.79;;8189.15;USD;0.799153
+19/08/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anish""";-6500.00;CHF;;;;;"""Madassery Anish""";;0;;;;
+20/08/2025;CARD_TRANSACTION_OUT;"""Swiss Post""";-13.60;CHF;;;**** 3365;"""Dietikon 1, CH""";"""Swiss Post""";;0.0;;;;
+21/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/08/2025;CARD_TRANSACTION_OUT;"""IKEA""";-6.00;CHF;;;**** 3365;"""Spreitenbach, CH""";"""IKEA""";;0.0;;;;
+22/08/2025;CARD_TRANSACTION_OUT;"""Bauhaus""";-1.00;CHF;;;**** 3365;"""Schlieren, CH""";"""Bauhaus""";;0.0;;;;
+22/08/2025;CARD_TRANSACTION_OUT;"""Bauhaus""";-1.00;CHF;;;**** 3365;"""Schlieren, CH""";"""Bauhaus""";;0.0;;;;
+23/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+23/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+25/08/2025;CARD_TRANSACTION_OUT;"""Parkhaus1""";-2.00;CHF;;;**** 3365;"""Zürich, CH""";"""Parkhaus1""";;0.0;;;;
+26/08/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+26/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""102.1624x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;102.1624;V3AA;5.873
+26/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.3867x Roche""";-101.10;CHF;;;;;;;1.1;BUY;0.3867;ROG;258.6
+26/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.2844x Fortinet""";-101.15;USD;;;;;;;1.15;BUY;1.2844;FTNT;77.86
+26/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""46.5116x Lucid motors""";-101.15;USD;;;;;;;1.15;BUY;46.5116;LCID;2.15
+26/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-164.26;CHF;202.30;USD;;;;;1.55;;;;0.811963
+27/08/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/08/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/08/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.1531x ASML""";-101.14;EUR;;;;;;;1.15;BUY;0.1531;ASML;653.1
+27/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7803x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.44;CHF;;;;;;;0.45;BUY;0.7803;EQCH;384.45
+27/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.4801x Bayer""";-101.15;EUR;;;;;;;1.15;BUY;3.4801;BAYN;28.735
+27/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.49;CHF;101.14;EUR;;;;;0.90;;;;0.944182
+27/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.48;CHF;101.15;EUR;;;;;0.90;;;;0.943917
+27/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""10.0067x Crypto Muesli""";-301.50;CHF;;;;;;;1.5;BUY;10.0067;MOONTQ;29.98
+27/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7143x Arm""";-101.15;USD;;;;;;;1.15;BUY;0.7143;ARM;140.0
+27/08/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4051x Berkshire Hathaway""";-201.31;USD;;;;;;;1.3;BUY;0.4051;BRK/B;493.73
+27/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/08/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of AMD declined""";-101.15;AMD;;;;;;;1.15;BUY;100;AMD;165.61
+27/08/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-245.75;CHF;302.46;USD;;;;;2.31;;;;0.812517
+27/08/2025;CARD_TRANSACTION_OUT;"""Bauhaus""";-1.00;CHF;;;**** 3365;"""Schlieren, CH""";"""Bauhaus""";;0.0;;;;
+28/08/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+28/08/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Alphabet (Google) declined""";-101.15;GOOG;;;;;;;1.15;BUY;100;GOOG;209.33
+29/08/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+01/09/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+02/09/2025;SECURITIES_TRANSACTION_OTHER;"""-81.1137 Lucid motors Securities Corporate Action""";;;0.00;USD;;;;;0;;;;
+02/09/2025;SECURITIES_TRANSACTION_OTHER;"""8.1114 Lucid Motors Securities Corporate Action""";;;0.00;USD;;;;;0;;;;
+09/09/2025;INVEST_ORDER_EXECUTED;"""2.0259x Berkshire Hathaway""";;;993.48;USD;;;;;6.5;SELL;2.0259;BRK/B;493.6
+09/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+09/09/2025;INVEST_ORDER_EXECUTED;"""12.6486x Palantir""";;;1987.00;USD;;;;;13;SELL;12.6486;PLTR;158.12
+09/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+09/09/2025;INVEST_ORDER_EXECUTED;"""8.9047x World (Vanguard FTSE All-World Dis)""";;;1390.90;USD;;;;;9.1;SELL;8.9047;VWRD;157.22
+09/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+09/09/2025;BANK_ORDER_EXECUTED;"""Exchange United States dollars""";;;3443.80;CHF;;;;;33.03;;4371.38;USD;0.787805
+10/09/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anish""";-3400.00;CHF;;;;;"""Madassery Anish""";;0;;;;
+16/09/2025;CARD_TRANSACTION_OUT;"""FC Bayern Munich""";-3.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FC Bayern Munich""";;0.0;;;;
+16/09/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.83;CHF;3.00;EUR;;;;;0.03;;;;0.941796
+16/09/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+26/09/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+26/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""100.5699x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;100.5699;V3AA;5.966
+26/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.4368x Artificial Intelligence & Big Data""";-200.30;CHF;;;;;;;0.3;BUY;1.4368;XAIX;139.2
+26/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.194x Fortinet""";-101.15;USD;;;;;;;1.15;BUY;1.194;FTNT;83.75
+26/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/09/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-81.56;CHF;101.15;USD;;;;;0.77;;;;0.806358
+27/09/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/09/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/09/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+28/09/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-335.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+28/09/2025;CARD_TRANSACTION_OUT;"""Justis""";-22.95;CHF;;;**** 3365;"""Etoy, CH""";"""Justis""";;0.0;;;;
+29/09/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to SERAFE AG""";-335.00;CHF;;;;;"""SERAFE AG""";;0;;;;
+29/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.122x ASML""";-101.12;EUR;;;;;;;1.15;BUY;0.122;ASML;819.4
+29/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7487x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.45;CHF;;;;;;;0.45;BUY;0.7487;EQCH;400.7
+29/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/09/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-95.29;CHF;101.12;EUR;;;;;0.90;;;;0.942379
+29/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""12.0337x Crypto Top 20 (WisdomTree CoinDesk 20)""";-300.00;CHF;;;;;;;0;BUY;12.0337;WCRP;24.93
+29/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.471x Emerging Markets (Xtrackers MSCI EM)""";-200.30;CHF;;;;;;;0.3;BUY;3.471;XMME;57.62
+29/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/09/2025;INVEST_RECURRING_ORDER_REJECTED;"""200 USD of Berkshire Hathaway declined""";-201.30;BRK/B;;;;;;;1.30;BUY;200;BRK/B;499.22
+29/09/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.6081x Micron Technology""";-101.15;USD;;;;;;;1.15;BUY;0.6081;MU;164.45
+29/09/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/09/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of AMD declined""";-101.15;AMD;;;;;;;1.15;BUY;100;AMD;161.29
+29/09/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Alphabet (Google) declined""";-101.15;GOOG;;;;;;;1.15;BUY;100;GOOG;248.67
+29/09/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-81.37;CHF;101.15;USD;;;;;0.77;;;;0.804466
+30/09/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Jahrliche Kosten»""";-60.00;CHF;;;;;"""Jahrliche Kosten""";;;;;;
+30/09/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-300.00;CHF;;;;;"""Notfall""";;;;;;
+01/10/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to SGD GmbH""";-60.00;CHF;;;;;"""SGD GmbH""";;0;;;;
+01/10/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Madassery Anish""";-300.00;CHF;;;;;"""Madassery Anish""";;0;;;;
+01/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+01/10/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;18.98;USD;;;;;0;;;;
+02/10/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;29.73;USD;;;;;0;;;;
+03/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-2.04;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+03/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-3.26;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+04/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+04/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+05/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-2.89;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+06/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+06/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-2.73;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+07/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+07/10/2025;CARD_TRANSACTION_OUT;"""FC Bayern Munich""";-3.00;EUR;;;**** 3365;"""Muenchen, DE""";"""FC Bayern Munich""";;0.0;;;;
+08/10/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-2.82;CHF;3.00;EUR;;;;;0.03;;;;0.939497
+08/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+19/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-2.19;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+19/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-1.37;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+21/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-1.25;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+21/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-1.29;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+21/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-2.25;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+21/10/2025;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.54;USD;;;;;0.23;;;;
+21/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+21/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+22/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-0.45;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+23/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-5.30;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+24/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+25/10/2025;CARD_TRANSACTION_OUT;"""Uber""";-11.58;CHF;;;**** 3365;"""Vorden, NL""";"""Uber""";;0.0;;;;
+26/10/2025;REWARD_RECEIVED;"""Card bonus""";;;;;;;;;;;1;SWQ;
+27/10/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+27/10/2025;GOAL_DEPOSIT;"""Deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/10/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/10/2025;GOAL_DEPOSIT;"""Deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7215x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.45;CHF;;;;;;;0.45;BUY;0.7215;EQCH;415.8
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.1104x ASML""";-101.13;EUR;;;;;;;1.15;BUY;0.1104;ASML;905.6
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""97.1345x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;97.1345;V3AA;6.177
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.3604x Artificial Intelligence & Big Data""";-200.31;CHF;;;;;;;0.3;BUY;1.3604;XAIX;147.02
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-94.56;CHF;101.13;EUR;;;;;0.89;;;;0.935082
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""12.4404x Crypto Top 20 (WisdomTree CoinDesk 20)""";-300.00;CHF;;;;;;;0;BUY;12.4404;WCRP;24.115
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.3052x Emerging Markets (Xtrackers MSCI EM)""";-200.30;CHF;;;;;;;0.3;BUY;3.3052;XMME;60.51
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4083x Berkshire Hathaway""";-201.31;USD;;;;;;;1.3;BUY;0.4083;BRK/B;489.85
+27/10/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.157x Fortinet""";-101.15;USD;;;;;;;1.15;BUY;1.157;FTNT;86.43
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Micron Technology declined""";-101.15;MU;;;;;;;1.15;BUY;100;MU;223.32
+27/10/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/10/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of AMD declined""";-101.15;AMD;;;;;;;1.15;BUY;100;AMD;254.725
+27/10/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-203.59;CHF;253.21;USD;;;;;1.92;;;;0.80402
+28/10/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of Alphabet (Google) declined""";-101.15;GOOG;;;;;;;1.15;BUY;100;GOOG;270.67
+06/11/2025;CASH_TRANSACTION_RELATED_OTHER;"""ASML Dividend""";;;1.15;EUR;;;;;0.2;;;;
+26/11/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+26/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""97.2605x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;97.2605;V3AA;6.169
+26/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.4094x Artificial Intelligence & Big Data""";-200.29;CHF;;;;;;;0.3;BUY;1.4094;XAIX;141.9
+26/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.2475x Fortinet""";-101.15;USD;;;;;;;1.15;BUY;1.2475;FTNT;80.16
+26/11/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-82.40;CHF;101.15;USD;;;;;0.77;;;;0.814651
+26/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+27/11/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/11/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+27/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""16x Crypto Top 20 (WisdomTree CoinDesk 20)""";-300.00;CHF;;;;;;;0;BUY;16.0;WCRP;18.75
+27/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7348x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.47;CHF;;;;;;;0.45;BUY;0.7348;EQCH;408.3
+27/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.111x ASML""";-101.12;EUR;;;;;;;1.15;BUY;0.111;ASML;900.6
+27/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.3602x Emerging Markets (Xtrackers MSCI EM)""";-200.30;CHF;;;;;;;0.3;BUY;3.3602;XMME;59.52
+27/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+27/11/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-94.15;CHF;99.97;EUR;;;;;0.88;;;;0.941814
+28/11/2025;INVEST_RECURRING_ORDER_REJECTED;"""200 USD of Berkshire Hathaway declined""";-201.30;BRK/B;;;;;;;1.30;BUY;200;BRK/B;512.07
+28/11/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4219x Micron Technology""";-101.14;USD;;;;;;;1.15;BUY;0.4219;MU;237.0
+28/11/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+28/11/2025;INVEST_RECURRING_ORDER_REJECTED;"""100 USD of AMD declined""";-101.15;AMD;;;;;;;1.15;BUY;100;AMD;216.23
+28/11/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-82.25;CHF;101.14;USD;;;;;0.77;;;;0.813276
+13/12/2025;GOAL_WITHDRAWAL;"""Withdrawal from «Notfall»""";-3000.00;CHF;;;;;"""Notfall""";;;;;;
+17/12/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Siedlungsgenossenschaft Eigengrund""";-0.60;CHF;;;;;"""Siedlungsgenossenschaft Eigengrund""";;0;;;;
+17/12/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Statthalteramt Bezirk Dietikon""";-1210.00;CHF;;;;;"""Statthalteramt Bezirk Dietikon""";;0;;;;
+17/12/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to Swiss Engineering STV UTS ATS""";-220.00;CHF;;;;;"""Swiss Engineering STV UTS ATS""";;0;;;;
+17/12/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to EKZ, Elektrizitatswerke des Kantons""";-52.10;CHF;;;;;"""EKZ, Elektrizitatswerke des Kantons""";;0;;;;
+17/12/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to DZR Deutsches Zahnarztliches Rechen""";-115.13;EUR;;;;;"""DZR Deutsches Zahnarztliches Rechen""";;0;;;;
+17/12/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-108.55;CHF;115.13;EUR;;;;;1.01;;;;0.942844
+18/12/2025;PAYMENT_TRANSACTION_OUT;"""Transfer to CELANEX GmbH""";-216.20;CHF;;;;;"""CELANEX GmbH""";;0;;;;
+26/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.2326x Fortinet""";-101.15;USD;;;;;;;1.15;BUY;1.2326;FTNT;81.13
+26/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+26/12/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-80.53;CHF;101.15;USD;;;;;0.76;;;;0.796145
+27/12/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Jahrliche Kosten»""";;;300.00;CHF;;;"""Jahrliche Kosten""";;;;;;
+27/12/2025;GOAL_AUTO_DEPOSIT;"""Recurring deposit to «Notfall»""";;;500.00;CHF;;;"""Notfall""";;;;;;
+29/12/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;4200.00;CHF;;;;"""Madassery Anish""";0;;;;
+29/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.7283x Nasdaq 100 (Invesco EQQQ Nasdaq 100 Acc)""";-300.44;CHF;;;;;;;0.45;BUY;0.7283;EQCH;411.9
+29/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""3.3568x Emerging Markets (Xtrackers MSCI EM)""";-200.30;CHF;;;;;;;0.3;BUY;3.3568;XMME;59.58
+29/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""1.3833x Artificial Intelligence & Big Data""";-200.30;CHF;;;;;;;0.3;BUY;1.3833;XAIX;144.58
+29/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/12/2025;GOAL_DEPOSIT;"""Deposit to «Steuern»""";;;1500.00;CHF;;;"""Steuern""";;;;;;
+29/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""17.3651x Crypto Top 20 (WisdomTree CoinDesk 20)""";-300.00;CHF;;;;;;;0;BUY;17.3651;WCRP;17.276
+29/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""96.7586x World ESG (Vanguard ESG Global All Cap)""";-600.90;CHF;;;;;;;0.9;BUY;96.7586;V3AA;6.201
+29/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/12/2025;INVEST_RECURRING_ORDER_EXECUTED;"""0.4012x Berkshire Hathaway""";-201.29;USD;;;;;;;1.3;BUY;0.4012;BRK/B;498.49
+29/12/2025;REWARD_RECEIVED;"""Investing bonus""";;;;;;;;;;;5;SWQ;
+29/12/2025;BANK_AUTO_ORDER_EXECUTED;"""Autoexchange Swiss francs""";-160.24;CHF;201.29;USD;;;;;1.51;;;;0.796061
+29/12/2025;PAYMENT_TRANSACTION_IN;"""Transfer from Madassery Anish""";;;8000.00;CHF;;;;"""Madassery Anish""";0;;;;
+30/12/2025;GOAL_DEPOSIT;"""Deposit to «Notfall»""";;;8000.00;CHF;;;"""Notfall""";;;;;;
+30/12/2025;CASH_TRANSACTION_OTHER;"""Interest on deposits""";;;12.19;CHF;;;;;0;;;;
+31/12/2025;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;24.51;USD;;;;;0;;;;
+02/01/2026;CASH_TRANSACTION_RELATED_OTHER;"""World (Vanguard FTSE All-World Dis) Dividend""";;;38.39;USD;;;;;0;;;;
+06/01/2026;SECURITIES_TRANSACTION_OTHER;"""-9.8416 Nikola Securities Corporate Action""";;;0.00;USD;;;;;0;;;;
+12/01/2026;SECURITIES_TRANSACTION_OTHER;"""-9.8416 Nikola Securities Corporate Action""";;;0.00;USD;;;;;0;;;;
+14/01/2026;CASH_TRANSACTION_RELATED_OTHER;"""Micron Technology Dividend""";;;0.57;USD;;;;;0.24;;;;
+19/01/2026;REWARD_RECEIVED;"""Referral bonus""";;;;;;;;;;;500;SWQ;

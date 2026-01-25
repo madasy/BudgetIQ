@@ -190,6 +190,12 @@ h1 {
   gap: 16px;
 }
 
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
 .stat {
   background: rgba(255, 250, 242, 0.8);
   padding: 18px 20px;
@@ -211,6 +217,108 @@ h1 {
 
 .stat.wide {
   grid-column: span 2;
+}
+
+.account-summary,
+.investment-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.account-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.account-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.account-card p {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.account-card h4 {
+  font-size: 1rem;
+}
+
+.investment-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.metric-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.investment-table {
+  display: grid;
+  gap: 8px;
+}
+
+.holding-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.investment-lots {
+  display: grid;
+  gap: 8px;
+}
+
+.investment-lot {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr 1fr 0.8fr;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+}
+
+.investment-lot span {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.holding-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.holding-row span {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.value-positive {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.value-negative {
+  color: var(--danger);
+  font-weight: 700;
 }
 
 .pulse {
@@ -469,6 +577,7 @@ textarea:focus {
 .manage-row {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .manage-row input {
@@ -490,10 +599,15 @@ textarea:focus {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--border);
+  flex-wrap: wrap;
 }
 
 .manage-item span {
   font-weight: 600;
+}
+
+.manage-item input {
+  flex: 1;
 }
 
 .receipt-grid {

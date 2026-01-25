@@ -25,6 +25,7 @@
         <div class="nav-links">
           <a href="index.html">Dashboard</a>
           <a class="active" href="import.html">Import & Receipts</a>
+          <a href="investments.html">Investments</a>
           <a href="settings.html">Settings</a>
         </div>
       </nav>
@@ -49,7 +50,9 @@
             <input type="file" id="csvFile" accept=".csv" />
             <select id="csvAccount" aria-label="Account for imported transactions"></select>
             <button class="primary" type="button" id="importCsv">Import CSV</button>
+            <button class="ghost" type="button" id="rebuildHoldings">Rebuild holdings from CSV</button>
             <p class="helper" id="csvStatus">Waiting for a CSV file.</p>
+            <p class="helper" id="rebuildStatus">Holdings unchanged.</p>
           </div>
         </section>
 

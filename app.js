@@ -17,6 +17,8 @@ const csvFileInput = document.getElementById("csvFile");
 const csvAccountSelect = document.getElementById("csvAccount");
 const importCsvButton = document.getElementById("importCsv");
 const csvStatus = document.getElementById("csvStatus");
+const rebuildHoldingsButton = document.getElementById("rebuildHoldings");
+const rebuildStatus = document.getElementById("rebuildStatus");
 const receiptFileInput = document.getElementById("receiptFile");
 const receiptVendorInput = document.getElementById("receiptVendor");
 const receiptAmountInput = document.getElementById("receiptAmount");
@@ -35,10 +37,32 @@ const newAccountNameInput = document.getElementById("newAccountName");
 const newCategoryNameInput = document.getElementById("newCategoryName");
 const addAccountButton = document.getElementById("addAccount");
 const addCategoryButton = document.getElementById("addCategory");
+const accountBalances = document.getElementById("accountBalances");
+const investCost = document.getElementById("investCost");
+const investValue = document.getElementById("investValue");
+const investPnl = document.getElementById("investPnl");
+const holdingTable = document.getElementById("holdingTable");
+const holdingEmpty = document.getElementById("holdingEmpty");
+const holdingList = document.getElementById("holdingList");
+const holdingSymbolInput = document.getElementById("holdingSymbol");
+const holdingNameInput = document.getElementById("holdingName");
+const holdingQuantityInput = document.getElementById("holdingQuantity");
+const holdingCostInput = document.getElementById("holdingCost");
+const holdingPriceInput = document.getElementById("holdingPrice");
+const addHoldingButton = document.getElementById("addHolding");
+const clearTransactionsButton = document.getElementById("clearTransactions");
+const clearTransactionsStatus = document.getElementById("clearTransactionsStatus");
+const updatePricesButton = document.getElementById("updatePrices");
+const priceStatus = document.getElementById("priceStatus");
+const investmentLots = document.getElementById("investmentLots");
+const investmentLotsEmpty = document.getElementById("investmentLotsEmpty");
 
 const STORAGE_KEY = "budgetiq-transactions";
 const STORAGE_ACCOUNTS = "budgetiq-accounts";
 const STORAGE_CATEGORIES = "budgetiq-categories";
+const STORAGE_HOLDINGS = "budgetiq-holdings";
+const STORAGE_INVESTMENTS = "budgetiq-investments";
+const PRICE_PROXY_URL = "http://localhost:8787/price";
 
 const defaultAccounts = [
   { id: "anish-bank-1", label: "Anish · Bank Account 1" },
@@ -58,12 +82,18 @@ const defaultCategories = [
   "Travel",
   "Childcare",
   "Investments",
+  "Savings",
+  "Transfer In",
+  "FX Exchange",
+  "Misc",
   "TWINT",
   "Card Payment",
   "Receipts",
   "Income",
   "Expense",
 ];
+
+const defaultHoldings = [];
 
 const getAccounts = () => {
   const stored = localStorage.getItem(STORAGE_ACCOUNTS);
@@ -101,8 +131,53 @@ const saveCategories = (nextCategories) => {
   localStorage.setItem(STORAGE_CATEGORIES, JSON.stringify(nextCategories));
 };
 
+const getHoldings = () => {
+  const stored = localStorage.getItem(STORAGE_HOLDINGS);
+  if (!stored) {
+    localStorage.setItem(STORAGE_HOLDINGS, JSON.stringify(defaultHoldings));
+    return [...defaultHoldings];
+  }
+  try {
+    const parsed = JSON.parse(stored);
+    if (!Array.isArray(parsed)) {
+      return [...defaultHoldings];
+    }
+    return parsed.map((holding) => ({
+      ...holding,
+      lastPricePerUnit: holding.lastPricePerUnit || holding.currentPrice || holding.costPerUnit || 0,
+      currency: holding.currency || "CHF",
+    }));
+  } catch (error) {
+    return [...defaultHoldings];
+  }
+};
+
+const saveHoldings = (nextHoldings) => {
+  localStorage.setItem(STORAGE_HOLDINGS, JSON.stringify(nextHoldings));
+};
+
+const getInvestments = () => {
+  const stored = localStorage.getItem(STORAGE_INVESTMENTS);
+  if (!stored) {
+    localStorage.setItem(STORAGE_INVESTMENTS, JSON.stringify([]));
+    return [];
+  }
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    return [];
+  }
+};
+
+const saveInvestments = (nextInvestments) => {
+  localStorage.setItem(STORAGE_INVESTMENTS, JSON.stringify(nextInvestments));
+};
+
 let accounts = getAccounts();
 let categories = getCategories();
+let holdings = getHoldings();
+let investments = getInvestments();
 
 const defaultTransactions = [
   {
@@ -267,6 +342,8 @@ const render = (transactions) => {
   updateOverview(transactions);
   renderTransactions(transactions);
   renderSankey(transactions);
+  renderAccountBalances(transactions);
+  renderHoldingsSummary();
 };
 
 const addTransaction = (formData) => {
@@ -354,13 +431,31 @@ const renderAccountList = () => {
   accounts.forEach((account) => {
     const row = document.createElement("div");
     row.className = "manage-item";
-    const label = document.createElement("span");
-    label.textContent = account.label;
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "ghost";
-    button.textContent = "Remove";
-    button.addEventListener("click", () => {
+    const input = document.createElement("input");
+    input.type = "text";
+    input.value = account.label;
+    const saveButton = document.createElement("button");
+    saveButton.type = "button";
+    saveButton.className = "primary";
+    saveButton.textContent = "Save";
+    saveButton.addEventListener("click", () => {
+      const nextLabel = input.value.trim();
+      if (!nextLabel) {
+        return;
+      }
+      accounts = accounts.map((item) =>
+        item.id === account.id ? { ...item, label: nextLabel } : item
+      );
+      saveAccounts(accounts);
+      populateAccountSelects();
+      renderAccountList();
+      render(getTransactions());
+    });
+    const removeButton = document.createElement("button");
+    removeButton.type = "button";
+    removeButton.className = "ghost";
+    removeButton.textContent = "Remove";
+    removeButton.addEventListener("click", () => {
       if (accounts.length === 1) {
         return;
       }
@@ -374,7 +469,7 @@ const renderAccountList = () => {
       renderAccountList();
       render(getTransactions());
     });
-    row.append(label, button);
+    row.append(input, saveButton, removeButton);
     accountList.appendChild(row);
   });
 };
@@ -387,13 +482,38 @@ const renderCategoryList = () => {
   categories.forEach((category) => {
     const row = document.createElement("div");
     row.className = "manage-item";
-    const label = document.createElement("span");
-    label.textContent = category;
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "ghost";
-    button.textContent = "Remove";
-    button.addEventListener("click", () => {
+    const input = document.createElement("input");
+    input.type = "text";
+    input.value = category;
+    const saveButton = document.createElement("button");
+    saveButton.type = "button";
+    saveButton.className = "primary";
+    saveButton.textContent = "Save";
+    saveButton.addEventListener("click", () => {
+      const nextValue = input.value.trim();
+      if (!nextValue) {
+        return;
+      }
+      if (categories.includes(nextValue) && nextValue !== category) {
+        return;
+      }
+      categories = categories.map((item) => (item === category ? nextValue : item));
+      saveCategories(categories);
+      populateCategoryDatalist();
+      renderCategoryList();
+      const transactions = getTransactions();
+      const updated = transactions.map((transaction) => ({
+        ...transaction,
+        category: transaction.category === category ? nextValue : transaction.category,
+      }));
+      saveTransactions(updated);
+      render(updated);
+    });
+    const removeButton = document.createElement("button");
+    removeButton.type = "button";
+    removeButton.className = "ghost";
+    removeButton.textContent = "Remove";
+    removeButton.addEventListener("click", () => {
       const confirmed = window.confirm(`Remove ${category}? Existing entries will keep the name.`);
       if (!confirmed) {
         return;
@@ -406,7 +526,7 @@ const renderCategoryList = () => {
       populateCategoryDatalist();
       renderCategoryList();
     });
-    row.append(label, button);
+    row.append(input, saveButton, removeButton);
     categoryListPanel.appendChild(row);
   });
 };
@@ -445,6 +565,15 @@ const parseSwissDate = (raw) => {
   }
   const fullYear = year.length === 2 ? `20${year}` : year;
   return `${fullYear}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+};
+
+const parseSlashDate = (raw) => {
+  const cleaned = raw.replace(/\uFEFF/g, "").trim();
+  const [day, month, year] = cleaned.split("/");
+  if (!day || !month || !year) {
+    return new Date().toISOString().split("T")[0];
+  }
+  return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
 };
 
 const guessCategory = (text, amount) => {
@@ -491,6 +620,273 @@ const parseMigrosCsv = (text, accountId) => {
   });
 };
 
+const extractHoldingName = (activityName, fallback) => {
+  if (!activityName) {
+    return fallback || "";
+  }
+  const cleaned = activityName.replace(/\"/g, "").trim();
+  const parts = cleaned.split("x ");
+  if (parts.length > 1) {
+    return parts[1].trim();
+  }
+  return cleaned;
+};
+
+const updateHoldingsFromYuh = ({
+  asset,
+  quantityRaw,
+  pricePerUnitRaw,
+  feeRaw,
+  buySell,
+  activityName,
+  debitRaw,
+  currency,
+}) => {
+  if (!asset || asset === "SWQ") {
+    return false;
+  }
+  const quantity = Number(quantityRaw);
+  const pricePerUnit = Number(pricePerUnitRaw);
+  const feeAmount = normalizeAmount(feeRaw || "");
+  if (!quantity || !pricePerUnit) {
+    return false;
+  }
+  const isSell = buySell && buySell.toUpperCase() === "SELL";
+  const debitAmount = Math.abs(normalizeAmount(debitRaw || ""));
+  const totalCost = debitAmount || pricePerUnit * quantity + feeAmount;
+  const existing = holdings.find((holding) => holding.symbol === asset);
+  if (!existing && isSell) {
+    return false;
+  }
+  if (!existing) {
+    holdings = [
+      ...holdings,
+      {
+        id: crypto.randomUUID(),
+        symbol: asset,
+        name: extractHoldingName(activityName, asset),
+        quantity,
+        costPerUnit: totalCost / quantity,
+        currentPrice: pricePerUnit,
+        lastPricePerUnit: pricePerUnit,
+        currency: currency || "CHF",
+      },
+    ];
+    return true;
+  }
+
+  if (isSell) {
+    const nextQuantity = Math.max(existing.quantity - quantity, 0);
+    if (!nextQuantity) {
+      holdings = holdings.filter((holding) => holding.symbol !== asset);
+    } else {
+      holdings = holdings.map((holding) =>
+        holding.symbol === asset
+          ? {
+              ...holding,
+              quantity: nextQuantity,
+              lastPricePerUnit: pricePerUnit,
+            }
+          : holding
+      );
+    }
+    return true;
+  }
+
+  const existingCostBasis = existing.quantity * existing.costPerUnit;
+  const newCostBasis = totalCost;
+  const combinedQuantity = existing.quantity + quantity;
+  const nextCostPerUnit = combinedQuantity ? (existingCostBasis + newCostBasis) / combinedQuantity : 0;
+  holdings = holdings.map((holding) =>
+    holding.symbol === asset
+      ? {
+          ...holding,
+          name: existing.name || extractHoldingName(activityName, asset),
+          quantity: combinedQuantity,
+          costPerUnit: nextCostPerUnit,
+          currentPrice: holding.currentPrice || pricePerUnit,
+          lastPricePerUnit: pricePerUnit,
+          currency: holding.currency || currency || "CHF",
+        }
+      : holding
+  );
+  return true;
+};
+
+const addInvestmentLot = ({
+  date,
+  activityType,
+  activityName,
+  buySell,
+  quantity,
+  pricePerUnit,
+  feeAmount,
+  debitAmount,
+  currency,
+  asset,
+}) => {
+  investments.push({
+    id: crypto.randomUUID(),
+    date,
+    activityType,
+    activityName,
+    buySell,
+    quantity,
+    pricePerUnit,
+    feeAmount,
+    debitAmount,
+    currency,
+    asset,
+  });
+};
+
+const parseYuhCsv = (text, accountId) => {
+  const normalized = text.replace(/\uFEFF/g, "");
+  const lines = normalized.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+  const headerIndex = lines.findIndex((line) => line.startsWith("DATE;ACTIVITY TYPE;"));
+  if (headerIndex === -1) {
+    return { transactions: [], holdingsChanged: false };
+  }
+  const dataLines = lines.slice(headerIndex + 1);
+  const rows = dataLines.map((line) => line.split(";"));
+  const transactions = [];
+  let holdingsChanged = false;
+
+  rows.forEach((columns) => {
+    const date = (columns[0] || "").trim();
+    const activityType = (columns[1] || "").trim();
+    const activityName = (columns[2] || "").trim();
+    const debit = columns[3];
+    const debitCurrency = columns[4];
+    const credit = columns[5];
+    const creditCurrency = columns[6];
+    const recipient = columns[9];
+    const sender = columns[10];
+    const feeRaw = columns[11];
+    const buySell = columns[12];
+    const quantityRaw = columns[13];
+    const asset = columns[14];
+    const pricePerUnit = columns[15];
+
+    if (!activityType) {
+      return;
+    }
+
+    if (activityType === "REWARD_RECEIVED") {
+      return;
+    }
+
+    if (activityType === "INVEST_RECURRING_ORDER_REJECTED") {
+      return;
+    }
+
+    if (activityName && activityName.toLowerCase().includes("declined")) {
+      return;
+    }
+
+    const debitAmount = normalizeAmount(debit || "");
+    const creditAmount = normalizeAmount(credit || "");
+    const isDebit = debitAmount < 0 || debitAmount > 0;
+    let amount = isDebit ? Math.abs(debitAmount) : Math.abs(creditAmount);
+    if (!amount) {
+      const hasInvestmentActivity =
+        activityType === "INVEST_RECURRING_ORDER_EXECUTED" || activityType === "INVEST_ORDER_EXECUTED";
+      if (hasInvestmentActivity) {
+        const fallbackAmount =
+          Math.abs(normalizeAmount(debit || "")) ||
+          Math.abs(Number(quantityRaw) * Number(pricePerUnit) + normalizeAmount(feeRaw || ""));
+        amount = fallbackAmount;
+      }
+      if (!amount) {
+        return;
+      }
+    }
+    const currency = isDebit ? debitCurrency : creditCurrency;
+    const description = activityName?.replace(/\"/g, "").trim() || activityType;
+
+    let type = isDebit ? "expense" : "income";
+    let category = "Misc";
+
+    if (activityType === "CARD_TRANSACTION_OUT") {
+      type = "expense";
+      category = "Card Payment";
+    } else if (activityType === "PAYMENT_TRANSACTION_IN") {
+      type = "income";
+      category = "Transfer In";
+    } else if (activityType === "GOAL_AUTO_DEPOSIT") {
+      type = "expense";
+      category = "Savings";
+    } else if (
+      activityType === "INVEST_RECURRING_ORDER_EXECUTED" ||
+      activityType === "INVEST_ORDER_EXECUTED"
+    ) {
+      type = "expense";
+      category = "Investments";
+      const quantityValue = Number(quantityRaw);
+      const priceValue = Number(pricePerUnit);
+      const feeAmount = normalizeAmount(feeRaw || "");
+      if (quantityValue && priceValue) {
+        addInvestmentLot({
+          date: parseSlashDate(date),
+          activityType,
+          activityName: description,
+          buySell,
+          quantity: quantityValue,
+          pricePerUnit: priceValue,
+          feeAmount,
+          debitAmount: Math.abs(debitAmount),
+          currency: debitCurrency || creditCurrency || "CHF",
+          asset,
+        });
+      }
+      const updated = updateHoldingsFromYuh({
+        asset,
+        quantityRaw,
+        pricePerUnitRaw: pricePerUnit,
+        feeRaw,
+        buySell,
+        activityName: description,
+        debitRaw: debit,
+        currency: debitCurrency || creditCurrency,
+      });
+      holdingsChanged = holdingsChanged || updated;
+    } else if (activityType === "BANK_AUTO_ORDER_EXECUTED") {
+      type = isDebit ? "expense" : "income";
+      category = "FX Exchange";
+    }
+
+    if (!categories.includes(category)) {
+      categories.push(category);
+    }
+
+    const noteParts = [description];
+    if (recipient) {
+      noteParts.push(`Recipient: ${recipient.replace(/\"/g, "").trim()}`);
+    }
+    if (sender) {
+      noteParts.push(`Sender: ${sender.replace(/\"/g, "").trim()}`);
+    }
+    if (currency && currency !== "CHF") {
+      noteParts.push(`Currency: ${currency}`);
+    }
+    if (asset && asset === "SWQ") {
+      return;
+    }
+
+    transactions.push({
+      id: crypto.randomUUID(),
+      type,
+      amount,
+      category,
+      date: parseSlashDate(date),
+      note: noteParts.filter(Boolean).join(" · "),
+      account: accountId,
+    });
+  });
+
+  return { transactions, holdingsChanged };
+};
+
 const importCsv = async () => {
   if (!csvFileInput || !csvAccountSelect || !csvStatus) {
     return;
@@ -501,7 +897,11 @@ const importCsv = async () => {
     return;
   }
   const text = await file.text();
-  const imported = parseMigrosCsv(text, csvAccountSelect.value);
+  const trimmed = text.trimStart().replace(/^\uFEFF/, "");
+  const yuhResult = trimmed.startsWith("DATE;ACTIVITY TYPE;")
+    ? parseYuhCsv(text, csvAccountSelect.value)
+    : { transactions: parseMigrosCsv(text, csvAccountSelect.value), holdingsChanged: false };
+  const imported = yuhResult.transactions;
   if (!imported.length) {
     csvStatus.textContent = "No transactions found. Check the CSV format.";
     return;
@@ -510,11 +910,54 @@ const importCsv = async () => {
   const merged = transactions.concat(imported);
   saveTransactions(merged);
   saveCategories(categories);
+  if (yuhResult.holdingsChanged) {
+    saveHoldings(holdings);
+    renderHoldings();
+  }
+  if (trimmed.startsWith("DATE;ACTIVITY TYPE;")) {
+    saveInvestments(investments);
+    renderInvestmentLots();
+  }
   populateCategoryDatalist();
   renderCategoryList();
   render(merged);
   csvStatus.textContent = `Imported ${imported.length} transactions.`;
   csvFileInput.value = "";
+};
+
+const rebuildHoldingsFromCsv = async () => {
+  if (!csvFileInput || !rebuildStatus) {
+    return;
+  }
+  const file = csvFileInput.files[0];
+  if (!file) {
+    rebuildStatus.textContent = "Choose a Yuh CSV file first.";
+    return;
+  }
+  const text = await file.text();
+  const trimmed = text.trimStart().replace(/^\uFEFF/, "");
+  if (!trimmed.startsWith("DATE;ACTIVITY TYPE;")) {
+    rebuildStatus.textContent = "This is not a Yuh CSV file.";
+    return;
+  }
+
+  const previousHoldings = holdings;
+  const previousInvestments = investments;
+  holdings = [];
+  investments = [];
+  const result = parseYuhCsv(text, csvAccountSelect?.value || "");
+  if (!result.holdingsChanged) {
+    holdings = previousHoldings;
+    investments = previousInvestments;
+    rebuildStatus.textContent = "No holdings found in this CSV.";
+    return;
+  }
+  saveHoldings(holdings);
+  saveInvestments(investments);
+  renderHoldings();
+  renderHoldingsSummary();
+  renderInvestmentLots();
+  rebuildStatus.textContent = `Holdings rebuilt from ${file.name}. ${investments.length} lots added.`;
 };
 
 const setupReceiptScanner = () => {
@@ -559,6 +1002,241 @@ const setupReceiptScanner = () => {
       receiptStatus.textContent = "Receipt added as expense.";
     }
   });
+};
+
+const renderAccountBalances = (transactions) => {
+  if (!accountBalances) {
+    return;
+  }
+  const totals = new Map();
+  accounts.forEach((account) => {
+    totals.set(account.id, 0);
+  });
+  transactions.forEach((transaction) => {
+    const delta = transaction.type === "income" ? transaction.amount : -transaction.amount;
+    totals.set(transaction.account, (totals.get(transaction.account) || 0) + delta);
+  });
+  accountBalances.innerHTML = "";
+  accounts.forEach((account) => {
+    const card = document.createElement("div");
+    card.className = "account-card";
+    const label = document.createElement("p");
+    label.textContent = account.label;
+    const amount = document.createElement("h4");
+    amount.textContent = formatCurrency(totals.get(account.id) || 0);
+    card.append(label, amount);
+    accountBalances.appendChild(card);
+  });
+};
+
+const renderHoldings = () => {
+  if (!holdingList) {
+    return;
+  }
+  holdingList.innerHTML = "";
+  holdings.forEach((holding) => {
+    const row = document.createElement("div");
+    row.className = "manage-item";
+    const symbolInput = document.createElement("input");
+    symbolInput.type = "text";
+    symbolInput.value = holding.symbol;
+    const nameInput = document.createElement("input");
+    nameInput.type = "text";
+    nameInput.value = holding.name || "";
+    const qtyInput = document.createElement("input");
+    qtyInput.type = "number";
+    qtyInput.step = "0.0001";
+    qtyInput.min = "0";
+    qtyInput.value = holding.quantity;
+    const costInput = document.createElement("input");
+    costInput.type = "number";
+    costInput.step = "0.01";
+    costInput.min = "0";
+    costInput.value = holding.costPerUnit;
+    const priceInput = document.createElement("input");
+    priceInput.type = "number";
+    priceInput.step = "0.01";
+    priceInput.min = "0";
+    priceInput.value = holding.currentPrice;
+    const saveButton = document.createElement("button");
+    saveButton.type = "button";
+    saveButton.className = "primary";
+    saveButton.textContent = "Save";
+    saveButton.addEventListener("click", () => {
+      const nextSymbol = symbolInput.value.trim();
+      if (!nextSymbol) {
+        return;
+      }
+      holdings = holdings.map((item) =>
+        item.id === holding.id
+          ? {
+              ...item,
+              symbol: nextSymbol,
+              name: nameInput.value.trim(),
+              quantity: Number(qtyInput.value) || 0,
+              costPerUnit: Number(costInput.value) || 0,
+              currentPrice: Number(priceInput.value) || 0,
+              lastPricePerUnit: item.lastPricePerUnit || Number(priceInput.value) || 0,
+            }
+          : item
+      );
+      saveHoldings(holdings);
+      renderHoldings();
+      renderHoldingsSummary();
+    });
+    const removeButton = document.createElement("button");
+    removeButton.type = "button";
+    removeButton.className = "ghost";
+    removeButton.textContent = "Remove";
+    removeButton.addEventListener("click", () => {
+      holdings = holdings.filter((item) => item.id !== holding.id);
+      saveHoldings(holdings);
+      renderHoldings();
+      renderHoldingsSummary();
+    });
+    row.append(symbolInput, nameInput, qtyInput, costInput, priceInput, saveButton, removeButton);
+    holdingList.appendChild(row);
+  });
+};
+
+const renderHoldingsSummary = () => {
+  if (!investCost || !investValue || !investPnl || !holdingTable || !holdingEmpty) {
+    return;
+  }
+  const totalCost = holdings.reduce(
+    (sum, holding) => sum + holding.quantity * holding.costPerUnit,
+    0
+  );
+  const totalValue = holdings.reduce((sum, holding) => {
+    const price = holding.currentPrice || holding.lastPricePerUnit || holding.costPerUnit || 0;
+    return sum + holding.quantity * price;
+  }, 0);
+  const pnl = totalValue - totalCost;
+
+  investCost.textContent = formatCurrency(totalCost);
+  investValue.textContent = formatCurrency(totalValue);
+  investPnl.textContent = formatCurrency(pnl);
+  investPnl.className = pnl >= 0 ? "value-positive" : "value-negative";
+
+  holdingTable.innerHTML = "";
+  if (!holdings.length) {
+    holdingEmpty.style.display = "block";
+    return;
+  }
+  holdingEmpty.style.display = "none";
+  holdings.forEach((holding) => {
+    const row = document.createElement("div");
+    row.className = "holding-row";
+    const marketPrice = holding.currentPrice || holding.lastPricePerUnit || holding.costPerUnit || 0;
+    const title = document.createElement("div");
+    const name = holding.name ? `${holding.symbol} · ${holding.name}` : holding.symbol;
+    const currency = holding.currency ? ` · ${holding.currency}` : "";
+    title.innerHTML = `<strong>${name}</strong><br /><span>${holding.quantity} units${currency}</span>`;
+    const cost = document.createElement("div");
+    cost.innerHTML = `<strong>${formatCurrency(
+      holding.quantity * holding.costPerUnit
+    )}</strong><br /><span>Cost basis</span>`;
+    const value = document.createElement("div");
+    value.innerHTML = `<strong>${formatCurrency(
+      holding.quantity * marketPrice
+    )}</strong><br /><span>Market value</span>`;
+    const pnlValue = holding.quantity * (marketPrice - holding.costPerUnit);
+    const pnlCell = document.createElement("div");
+    pnlCell.innerHTML = `<strong class=\"${
+      pnlValue >= 0 ? "value-positive" : "value-negative"
+    }\">${formatCurrency(pnlValue)}</strong><br /><span>P/L</span>`;
+    row.append(title, cost, value, pnlCell);
+    holdingTable.appendChild(row);
+  });
+};
+
+const renderInvestmentLots = () => {
+  if (!investmentLots || !investmentLotsEmpty) {
+    return;
+  }
+  investmentLots.innerHTML = "";
+  if (!investments.length) {
+    investmentLotsEmpty.style.display = "block";
+    return;
+  }
+  investmentLotsEmpty.style.display = "none";
+  investments
+    .slice()
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .forEach((lot) => {
+      const row = document.createElement("div");
+      row.className = "investment-lot";
+      const title = document.createElement("div");
+      title.innerHTML = `<strong>${lot.asset}</strong><br /><span>${lot.activityName}</span>`;
+      const date = document.createElement("div");
+      date.innerHTML = `<strong>${formatDate(lot.date)}</strong><br /><span>Date</span>`;
+      const qty = document.createElement("div");
+      qty.innerHTML = `<strong>${lot.quantity}</strong><br /><span>Quantity</span>`;
+      const price = document.createElement("div");
+      price.innerHTML = `<strong>${formatCurrency(lot.pricePerUnit)}</strong><br /><span>Unit price</span>`;
+      const total = document.createElement("div");
+      const totalCost = lot.quantity * lot.pricePerUnit + (lot.feeAmount || 0);
+      const direction = lot.buySell ? lot.buySell.toUpperCase() : "BUY";
+      total.innerHTML = `<strong>${formatCurrency(totalCost)}</strong><br /><span>${direction}</span>`;
+      row.append(title, date, qty, price, total);
+      investmentLots.appendChild(row);
+    });
+};
+
+const fetchPriceForSymbol = async (symbol) => {
+  const response = await fetch(`${PRICE_PROXY_URL}?symbol=${encodeURIComponent(symbol)}`);
+  if (!response.ok) {
+    throw new Error("Price fetch failed");
+  }
+  const payload = await response.json();
+  if (!payload || typeof payload.price !== "number") {
+    throw new Error("Invalid price response");
+  }
+  return payload.price;
+};
+
+const refreshHoldingPrices = async () => {
+  if (!updatePricesButton || !priceStatus) {
+    return;
+  }
+  if (!holdings.length) {
+    priceStatus.textContent = "No holdings to update.";
+    return;
+  }
+  priceStatus.textContent = "Updating prices...";
+  let updatedCount = 0;
+  let failedCount = 0;
+  const nextHoldings = [];
+
+  for (const holding of holdings) {
+    try {
+      const price = await fetchPriceForSymbol(holding.symbol);
+      updatedCount += 1;
+      nextHoldings.push({
+        ...holding,
+        currentPrice: price,
+        lastPricePerUnit: holding.lastPricePerUnit || price,
+      });
+    } catch (error) {
+      failedCount += 1;
+      nextHoldings.push({
+        ...holding,
+        currentPrice: holding.currentPrice || holding.lastPricePerUnit || holding.costPerUnit,
+      });
+    }
+  }
+
+  holdings = nextHoldings;
+  saveHoldings(holdings);
+  renderHoldings();
+  renderHoldingsSummary();
+  if (!updatedCount) {
+    priceStatus.textContent = "No prices updated. Is the local proxy running?";
+    return;
+  }
+  priceStatus.textContent = `Updated ${updatedCount} of ${holdings.length} holdings.${
+    failedCount ? ` (${failedCount} failed)` : ""
+  }`;
 };
 
 const analyzeReceiptLocal = async () => {
@@ -731,6 +1409,12 @@ if (importCsvButton && csvFileInput) {
   });
 }
 
+if (rebuildHoldingsButton) {
+  rebuildHoldingsButton.addEventListener("click", () => {
+    rebuildHoldingsFromCsv();
+  });
+}
+
 if (transactionForm && typeControl && typeInput) {
   setupTypeControl();
   transactionForm.addEventListener("submit", (event) => {
@@ -759,6 +1443,8 @@ setTodayDate();
 setupReceiptScanner();
 renderAccountList();
 renderCategoryList();
+renderHoldings();
+renderInvestmentLots();
 render(getTransactions());
 
 if (addAccountButton && newAccountNameInput) {
@@ -772,6 +1458,7 @@ if (addAccountButton && newAccountNameInput) {
     newAccountNameInput.value = "";
     populateAccountSelects();
     renderAccountList();
+    renderAccountBalances(getTransactions());
   });
 }
 
@@ -794,5 +1481,58 @@ if (addCategoryButton && newCategoryNameInput) {
 if (analyzeReceiptButton) {
   analyzeReceiptButton.addEventListener("click", () => {
     analyzeReceiptLocal();
+  });
+}
+
+if (addHoldingButton) {
+  addHoldingButton.addEventListener("click", () => {
+    const symbol = holdingSymbolInput.value.trim();
+    const quantity = Number(holdingQuantityInput.value) || 0;
+    const costPerUnit = Number(holdingCostInput.value) || 0;
+    const currentPrice = Number(holdingPriceInput.value) || 0;
+    if (!symbol || !quantity) {
+      return;
+    }
+    holdings = [
+      ...holdings,
+      {
+        id: crypto.randomUUID(),
+        symbol,
+        name: holdingNameInput.value.trim(),
+        quantity,
+        costPerUnit,
+        currentPrice,
+        lastPricePerUnit: currentPrice || costPerUnit,
+        currency: "CHF",
+      },
+    ];
+    saveHoldings(holdings);
+    holdingSymbolInput.value = "";
+    holdingNameInput.value = "";
+    holdingQuantityInput.value = "";
+    holdingCostInput.value = "";
+    holdingPriceInput.value = "";
+    renderHoldings();
+    renderHoldingsSummary();
+  });
+}
+
+if (updatePricesButton) {
+  updatePricesButton.addEventListener("click", () => {
+    refreshHoldingPrices();
+  });
+}
+
+if (clearTransactionsButton) {
+  clearTransactionsButton.addEventListener("click", () => {
+    const confirmed = window.confirm("Remove all transactions? This cannot be undone.");
+    if (!confirmed) {
+      return;
+    }
+    localStorage.removeItem(STORAGE_KEY);
+    if (clearTransactionsStatus) {
+      clearTransactionsStatus.textContent = "All transactions removed.";
+    }
+    render([]);
   });
 }
