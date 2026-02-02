@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .routers import auth, accounts, categories, transactions, holdings, investments, imports, prices
+from .routers import auth, accounts, categories, transactions, holdings, investments, imports, prices, budget_plan
 
 app = FastAPI(title="BudgetIQ API")
 
@@ -21,3 +21,4 @@ app.include_router(holdings.router)
 app.include_router(investments.router)
 app.include_router(imports.router)
 app.include_router(prices.router)
+app.include_router(budget_plan.router)

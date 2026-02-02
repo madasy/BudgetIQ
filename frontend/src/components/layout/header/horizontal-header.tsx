@@ -19,7 +19,7 @@ export function HorizontalHeader({ setMobileOpen }: HorizontalHeaderProps) {
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    window.location.href = "/auth/login";
+    window.location.href = "/login";
   };
 
   return (

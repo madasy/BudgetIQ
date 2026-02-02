@@ -146,6 +146,53 @@ class InvestmentLotOut(InvestmentLotBase):
     orm_mode = True
 
 
+class BudgetItemBase(BaseModel):
+  category_id: int
+  kind: str
+  amount: Decimal
+  gross_amount: Optional[Decimal] = None
+  net_amount: Optional[Decimal] = None
+  currency: str = "CHF"
+  group_name: Optional[str] = None
+  position: Optional[int] = None
+  parent_item_id: Optional[int] = None
+
+
+class BudgetItemCreate(BudgetItemBase):
+  pass
+
+
+class BudgetItemUpdate(BaseModel):
+  category_id: Optional[int] = None
+  kind: Optional[str] = None
+  amount: Optional[Decimal] = None
+  gross_amount: Optional[Decimal] = None
+  net_amount: Optional[Decimal] = None
+  currency: Optional[str] = None
+  group_name: Optional[str] = None
+  position: Optional[int] = None
+  parent_item_id: Optional[int] = None
+
+
+class BudgetItemOut(BudgetItemBase):
+  id: int
+  category: Optional[CategoryOut] = None
+
+  class Config:
+    orm_mode = True
+
+
+class BudgetPlanOut(BaseModel):
+  id: int
+  name: Optional[str] = None
+  is_current: bool
+  base_currency: str
+  items: List[BudgetItemOut]
+
+  class Config:
+    orm_mode = True
+
+
 class ImportSummary(BaseModel):
   transactions_added: int
   holdings_updated: int

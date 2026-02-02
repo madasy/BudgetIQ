@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/collapsible";
 import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
-import { Slider } from "@/components/ui/slider";
 import {
   Car,
   ChevronDown,
@@ -190,6 +189,7 @@ export function BudgetCategories() {
   );
 
   const updateBudgetLimit = (id: string, newLimit: number) => {
+    if (Number.isNaN(newLimit) || newLimit < 0) return;
     const currentTotal = categories.reduce((sum, cat) => sum + cat.limit, 0);
     const currentCategory = categories.find((c) => c.id === id);
 
@@ -310,15 +310,21 @@ export function BudgetCategories() {
                   </span>
                 </div>
 
-                <div className="pt-1 pb-2">
-                  <Slider
-                    value={[category.limit]}
-                    max={totalBudget}
+                <div className="pt-2">
+                  <div className="flex items-center justify-between text-xs text-muted-foreground mb-2">
+                    <span>Budget limit</span>
+                    <span>${category.limit}</span>
+                  </div>
+                  <Input
+                    type="number"
                     min={category.spent}
+                    max={totalBudget}
                     step={10}
-                    onValueChange={(value) =>
-                      updateBudgetLimit(category.id, value[0])
+                    value={category.limit}
+                    onChange={(event) =>
+                      updateBudgetLimit(category.id, Number(event.target.value))
                     }
+                    className="w-32"
                   />
                 </div>
                 <CollapsibleTrigger className="mx-auto w-full">

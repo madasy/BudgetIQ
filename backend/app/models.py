@@ -48,6 +48,40 @@ class Category(Base):
   transactions = relationship("Transaction", back_populates="category")
 
 
+class BudgetPlan(Base):
+  __tablename__ = "budget_plans"
+
+  id = Column(Integer, primary_key=True, index=True)
+  user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+  name = Column(String(255), nullable=True)
+  is_current = Column(Boolean, default=True)
+  created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+  user = relationship("User")
+  items = relationship("BudgetItem", back_populates="plan", cascade="all, delete-orphan")
+
+
+class BudgetItem(Base):
+  __tablename__ = "budget_items"
+
+  id = Column(Integer, primary_key=True, index=True)
+  plan_id = Column(Integer, ForeignKey("budget_plans.id"), nullable=False)
+  category_id = Column(Integer, ForeignKey("categories.id"), nullable=False)
+  kind = Column(String(32), nullable=False)
+  amount = Column(Numeric(12, 2), nullable=False, default=0)
+  gross_amount = Column(Numeric(12, 2), nullable=True)
+  net_amount = Column(Numeric(12, 2), nullable=True)
+  currency = Column(String(8), nullable=False, default="CHF")
+  group_name = Column(String(64), nullable=True)
+  position = Column(Integer, nullable=True)
+  parent_item_id = Column(Integer, ForeignKey("budget_items.id"), nullable=True)
+  created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+  plan = relationship("BudgetPlan", back_populates="items")
+  category = relationship("Category")
+  parent = relationship("BudgetItem", remote_side=[id])
+
+
 class Transaction(Base):
   __tablename__ = "transactions"
 

@@ -9,7 +9,13 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Slider } from "@/components/ui/slider";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
     Car,
     Coffee,
@@ -26,10 +32,12 @@ import {
     type LucideIcon,
 } from "lucide-react";
 import { useState } from "react";
+import { apiFetch } from "@/lib/api";
 
 interface AddCategoryDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
+  onCategoryAdded?: () => void;
 }
 
 interface IconItem {
@@ -46,11 +54,15 @@ interface ColorItem {
 export function AddCategoryDialog({
   open,
   onOpenChange,
+  onCategoryAdded,
 }: AddCategoryDialogProps) {
   const [categoryName, setCategoryName] = useState("");
   const [selectedIcon, setSelectedIcon] = useState<IconItem | null>(null);
   const [selectedColor, setSelectedColor] = useState<ColorItem | null>(null);
-  const [budgetLimit, setBudgetLimit] = useState([500]);
+  const [budgetLimit, setBudgetLimit] = useState(500);
+  const [categoryKind, setCategoryKind] = useState<"income" | "expense" | "detail">("expense");
+  const [detailGroup, setDetailGroup] = useState("Migros Kreditkarte");
+  const [saving, setSaving] = useState(false);
 
   const icons: IconItem[] = [
     { name: "Shopping", icon: ShoppingBag },
@@ -115,22 +127,40 @@ export function AddCategoryDialog({
     },
   ];
 
-  const handleSubmit = () => {
-    if (!categoryName || !selectedIcon || !selectedColor) {
-      return;
+  const handleSubmit = async () => {
+    if (!categoryName) return;
+    setSaving(true);
+    try {
+      const category = await apiFetch<{ id: number }>("/categories", {
+        method: "POST",
+        body: JSON.stringify({
+          name: categoryName,
+          kind: categoryKind === "income" ? "income" : "expense",
+        }),
+      });
+
+      await apiFetch("/budget-plan/items", {
+        method: "POST",
+        body: JSON.stringify({
+          category_id: category.id,
+          kind: categoryKind,
+          amount: budgetLimit,
+          group_name: categoryKind === "detail" ? detailGroup : null,
+        }),
+      });
+
+      onCategoryAdded?.();
+
+      setCategoryName("");
+      setSelectedIcon(null);
+      setSelectedColor(null);
+      setBudgetLimit(500);
+      setCategoryKind("expense");
+      setDetailGroup("Migros Kreditkarte");
+      onOpenChange(false);
+    } finally {
+      setSaving(false);
     }
-
-    // Here you would typically save the category
-
-
-    // Reset form
-    setCategoryName("");
-    setSelectedIcon(null);
-    setSelectedColor(null);
-    setBudgetLimit([500]);
-
-    // Close dialog
-    onOpenChange(false);
   };
 
   return (
@@ -144,6 +174,38 @@ export function AddCategoryDialog({
         </DialogHeader>
 
         <div className="space-y-6 py-4">
+          {/* Category Type */}
+          <div className="space-y-2">
+            <Label>Kategorie Typ</Label>
+            <Select value={categoryKind} onValueChange={(value) => setCategoryKind(value as "income" | "expense" | "detail")}>
+              <SelectTrigger>
+                <SelectValue placeholder="Auswaehlen" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="income">Einkuenfte</SelectItem>
+                <SelectItem value="expense">Ausgaben</SelectItem>
+                <SelectItem value="detail">Detail</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          {categoryKind === "detail" && (
+            <div className="space-y-2">
+              <Label>Detail Gruppe</Label>
+              <Select value={detailGroup} onValueChange={setDetailGroup}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Auswaehlen" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="Migros Kreditkarte">Migros Kreditkarte</SelectItem>
+                  <SelectItem value="WISE">WISE</SelectItem>
+                  <SelectItem value="Spenden">Spenden</SelectItem>
+                  <SelectItem value="Jaehrliche Kosten">Jaehrliche Kosten</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          )}
+
           {/* Category Name */}
           <div className="space-y-2">
             <Label htmlFor="categoryName">Category Name</Label>
@@ -210,15 +272,15 @@ export function AddCategoryDialog({
             <div className="space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Amount</span>
-                <span className="text-lg font-semibold">${budgetLimit[0]}</span>
+                <span className="text-lg font-semibold">${budgetLimit}</span>
               </div>
-              <Slider
-                value={budgetLimit}
-                onValueChange={setBudgetLimit}
-                max={2000}
+              <Input
+                type="number"
                 min={50}
+                max={2000}
                 step={25}
-                className="w-full"
+                value={budgetLimit}
+                onChange={(event) => setBudgetLimit(Number(event.target.value))}
               />
               <div className="flex justify-between text-xs text-muted-foreground">
                 <span>$50</span>
@@ -240,7 +302,7 @@ export function AddCategoryDialog({
                 <div>
                   <div className="font-medium">{categoryName}</div>
                   <div className="text-sm text-muted-foreground">
-                    Budget: ${budgetLimit[0]} per month
+                    Budget: ${budgetLimit} per month
                   </div>
                 </div>
               </div>
@@ -254,7 +316,7 @@ export function AddCategoryDialog({
           </Button>
           <Button
             onClick={handleSubmit}
-            disabled={!categoryName || !selectedIcon || !selectedColor}
+            disabled={!categoryName || saving}
           >
             Add Category
           </Button>

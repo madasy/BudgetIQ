@@ -9,7 +9,11 @@ import {
 import { useState } from "react";
 import { AddCategoryDialog } from "./add-category-dialog";
 
-export function BudgetHeader() {
+interface BudgetHeaderProps {
+  onCategoryAdded?: () => void;
+}
+
+export function BudgetHeader({ onCategoryAdded }: BudgetHeaderProps) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -34,7 +38,7 @@ export function BudgetHeader() {
           <Button onClick={() => setOpen(true)}>Add Category</Button>
         </div>
       </div>
-      <AddCategoryDialog open={open} onOpenChange={setOpen} />
+      <AddCategoryDialog open={open} onOpenChange={setOpen} onCategoryAdded={onCategoryAdded} />
     </>
   );
 }
